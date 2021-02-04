@@ -26,10 +26,40 @@ body {
   font-weight: 100;
 }
 
+.navbar{
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.navbar .nav-item .nav-link{
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar .nav-item .secondary{
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  background:#ff781f
+}
+
+
+
 .logo-text {
   font-family: poppins;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 14px;
 }
+
+.logo-text .header{
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 64px;
+  color: #FF781F;
+}
+
 
 .hero-section {
   background: rgb(255,120,31);
@@ -41,4 +71,98 @@ body {
   width: 60%;
   height:auto;
   margin: auto;
+}
+
+.section{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.section-title{
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 5vh;
+  margin-top:5vh;
+  margin-bottom:5vh;
+}
+
+.section-title-white{
+  color:white;
+  padding-top:5vh;
+}
+
+.tingkat-card{
+  height:40vh;
+  margin:auto;
+  margin-bottom: 2vw;
+}
+
+.tingkat-img{
+  height:100%;
+  object-fit: cover;
+}
+
+.tingkat-title{
+  font-size: 4vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.tingkat-overlay{
+  position : absolute;
+  bottom   : 0;
+  left:0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: height 1s;
+}
+
+.tingkat-overlay:hover{
+  height: 100%;
+}
+
+.about-heading{
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 2.3vh;
+  color:white;
+}
+
+.about-text{
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 1.4vh;
+  color:white;
+  text-align: justify;
+}
+
+.about-numbers{
+  padding-top: 5vh;
+}
+
+.diamond-shape {
+  background: #fff;
+  height: 12vh;
+  text-align: center;
+  transform:rotate(45deg);
+  width:12vh;
+  margin:auto;
+}
+
+.item-count {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 5vh;
+  color: #333;
+  display: table-cell;
+  height: 12vh;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+	width:12vh;
+}
+
+.container-shape {
+  margin: auto;
+  text-align: center; 
+  width: 940px;
 }
