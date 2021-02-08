@@ -67,6 +67,17 @@ body{
   color: white;
 }
 
+.head-bg{
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+.head-bg img{
+  padding-top: 2vh;
+  width: 100%;
+  max-height:600px;
+  object-fit: cover;
+}
 
 .hero-section {
   background: rgb(255,120,31);
@@ -96,6 +107,23 @@ body{
 .section-title-white{
   color:white;
   padding-top:5vh;
+}
+
+.section-title-orange{
+  color:#ff781f;
+  margin-bottom:2vh;
+}
+
+.text-section{
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+
+.text-section p{
+  text-align: justify;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 1.6vh;
 }
 
 .tingkat-card{
@@ -200,4 +228,36 @@ body{
 .footer-components p{
   font-family: poppins;
   font-weight: 600;
+}
+
+.img-kegiatan{
+  object-fit: cover;
+  width:100%;
+  height:300px;
+}
+
+.img-desc {
+  width:100%;
+  text-align: center;
+  margin:auto;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+.kegiatan-button{
+  border:1px black solid;
+}
+
+.kegiatan-button:hover, .kegiatan-button:focus .kegiatan-button:active{
+  background-color:#ff781f;
+}
+
+.kegiatan-button-content{
+  border:1px black solid; 
+  border-top:none;
+}
+
+.button-no-outline:focus, .button-no-outline:active {
+  outline: none !important;
+  box-shadow: none;
 }
