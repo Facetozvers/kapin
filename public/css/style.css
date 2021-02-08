@@ -21,7 +21,7 @@
   font-weight: 200;
   }
 
-body {
+body{
   font-family: poppins;
   font-weight: 100;
 }
@@ -60,6 +60,13 @@ body {
   color: #FF781F;
 }
 
+.logo-text .header-white{
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 64px;
+  color: white;
+}
+
 
 .hero-section {
   background: rgb(255,120,31);
@@ -81,7 +88,7 @@ body {
 .section-title{
   font-family: poppins;
   font-weight: 600;
-  font-size: 5vh;
+  font-size: 3.7vh;
   margin-top:5vh;
   margin-bottom:5vh;
 }
@@ -97,6 +104,14 @@ body {
   margin-bottom: 2vw;
 }
 
+.zoom{
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
 .tingkat-img{
   height:100%;
   object-fit: cover;
@@ -106,19 +121,6 @@ body {
   font-size: 4vh;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.tingkat-overlay{
-  position : absolute;
-  bottom   : 0;
-  left:0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  transition: height 1s;
-}
-
-.tingkat-overlay:hover{
-  height: 100%;
 }
 
 .about-heading{
@@ -142,27 +144,60 @@ body {
 
 .diamond-shape {
   background: #fff;
-  height: 12vh;
+  height: 11vh;
   text-align: center;
   transform:rotate(45deg);
-  width:12vh;
+  width:11vh;
   margin:auto;
+}
+
+.diamond-text {
+  padding-top: 4.5vh;
+  width:50%;
+  margin:auto;
+  padding-bottom: 2vh;
+}
+
+.diamond-text p {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 2.1vh;
 }
 
 .item-count {
   font-family: poppins;
   font-weight: 600;
-  font-size: 5vh;
+  font-size: 4vh;
   color: #333;
   display: table-cell;
-  height: 12vh;
+  height: 11vh;
   transform: rotate(-45deg);
   vertical-align: middle;
-	width:12vh;
+	width:11vh;
 }
 
 .container-shape {
   margin: auto;
   text-align: center; 
   width: 940px;
+}
+
+.footer-content{
+  margin-left:4vw;
+  margin-right:4vw;
+}
+
+.icon {
+  font-size: 30px;
+  margin-right:8px;
+}
+
+.footer-components{
+  margin-top:3vh;
+  width:50%
+}
+
+.footer-components p{
+  font-family: poppins;
+  font-weight: 600;
 }

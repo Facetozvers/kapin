@@ -1,50 +1,7 @@
 @extends('layouts.main')
 @section('title', 'Kapin')
 @section('content')
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <div class="row">
-        <div class="col-md-5">
-            <img src="/assets/logo.png" height="150" width="150" alt="">
-        </div>
-        <div class="col-md-5 mt-1">
-            <p class="logo-text"><span class="header">KAPIN</span><br>YAYASAN PENDIDIKAN TEKNOLOGI<br>KADER PEMBANGUNAN INDONESIA</p>
-        </div>
-    </div>
-    
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse flex-column" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Beranda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Yayasan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kegiatan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav flex-row mb-2 ml-auto">
-                <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="#">SMP</a>
-                </li>
-                <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="#">SMA</i></a>
-                </li>
-                <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="#">SMK</i></a>
-                </li>
-            </ul>
-        </div>
-</nav>
 
 <div class="container-fluid hero-section">
   <div class="row">
@@ -56,17 +13,17 @@
   <h1 class="section-title text-center">Akademik</h1>
   <div class="row justify-content-center">
     <div class="col-md-3">
-      <div class="tingkat-card card">
-        <img class="tingkat-img card-img" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Bologna">
+      <div class="card tingkat-card zoom">
+        <img class="tingkat-img card-img" src="https://www.kalderanews.com/wp-content/uploads/2019/03/Siswa-SMP-MTS.jpg" alt="Bologna">
         <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
-          <div class="d-block tingkat-overlay">
+          <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
             <h1 class="tingkat-title card-title text-center my-3" style="margin:0">SMP</h1>
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-3">
-      <div class="tingkat-card card">
+      <div class="card tingkat-card zoom">
         <img class="tingkat-img card-img" src="https://www.kalderanews.com/wp-content/uploads/2019/03/Siswa-SMP-MTS.jpg" alt="Bologna">
         <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
           <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
@@ -76,7 +33,7 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="tingkat-card card">
+      <div class="card tingkat-card zoom">
         <img class="tingkat-img card-img" src="https://www.kalderanews.com/wp-content/uploads/2019/03/Siswa-SMP-MTS.jpg" alt="Bologna">
         <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
           <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
@@ -112,18 +69,87 @@
       <div class="col-md-3 col-12">
         <div class="diamond-shape">
           <div class="item-count">99</div>
+        </div>
+        <div class="diamond-text">
+          <p class="text-center">Pengalaman lebih dari 20 Tahun</p>
         </div>  
       </div>
       <div class="col-md-3 col-12">
         <div class="diamond-shape">
           <div class="item-count">99</div>
         </div>  
+        <div class="diamond-text">
+          <p class="text-center">8 Ekstrakulikuler</p>
+        </div>
       </div>
       <div class="col-md-3 col-12">
         <div class="diamond-shape">
           <div class="item-count">99</div>
         </div>  
+        <div class="diamond-text">
+          <p class="text-center">3000 + Siswa telah kami bimbing</p>
+        </div>
       </div>
     </div>
+</div>
+
+<div class="container section mt-5">
+  <h1 class="section-title text-center">News & Event</h1>
+  <div class="row justify-content-center">
+    <div class="col-md-4 col-6 mb-5">
+      <div class="card" style="">
+        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-6 mb-5">
+      <div class="card" style="">
+        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-6 mb-5">
+      <div class="card" style="">
+        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-6 mb-5">
+      <div class="card" style="">
+        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-6 mb-5">
+      <div class="card" style="">
+        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-6 mb-5">
+      <div class="card" style="">
+        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 @endsection
