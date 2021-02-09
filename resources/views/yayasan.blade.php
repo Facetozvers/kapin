@@ -43,8 +43,8 @@
             <img class="tingkat-img card-img" src="https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg" alt="Bologna">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
                 <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
-                    <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Maryana Muchtar, S.H</h5>
-                    <p class="pengurus-tingkat text-center mb-3" style="margin:0">Ketua Yayasan</p>
+                    <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Drs. Izzudin Madjid</h5>
+                    <p class="pengurus-tingkat text-center mb-3" style="margin:0">Sekretaris</p>
                 </div>
             </div>
         </div>
@@ -54,8 +54,8 @@
             <img class="tingkat-img card-img" src="https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg" alt="Bologna">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
                 <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
-                    <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Maryana Muchtar, S.H</h5>
-                    <p class="pengurus-tingkat text-center mb-3" style="margin:0">Ketua Yayasan</p>
+                    <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Sri Yati</h5>
+                    <p class="pengurus-tingkat text-center mb-3" style="margin:0">Bendahara</p>
                 </div>
             </div>
         </div>
