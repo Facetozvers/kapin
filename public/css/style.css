@@ -261,3 +261,10 @@ body{
   outline: none !important;
   box-shadow: none;
 }
+
+.pengurus-name{
+  font-size: 2vh;
+}
+.pengurus-title{
+  font-size: 1.5vh;
+}

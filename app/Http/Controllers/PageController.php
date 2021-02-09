@@ -13,4 +13,8 @@ class PageController extends Controller
     public function kegiatan(){
         return view('kegiatan');
     }
+
+    public function yayasan(){
+        return view('yayasan');
+    }
 }
