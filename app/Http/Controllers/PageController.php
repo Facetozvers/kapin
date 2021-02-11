@@ -17,4 +17,8 @@ class PageController extends Controller
     public function yayasan(){
         return view('yayasan');
     }
+
+    public function smp(){
+        return view('smp');
+    }
 }
