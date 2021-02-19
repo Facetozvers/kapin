@@ -136,17 +136,17 @@
         <p>3.	Ruang TU</p>
         <p>4.	Ruang Kelas</p>
         <p>5.	Ruang OSIS</p>
-        <p>4.	Ruang UKS</p>
-        <p>5.	Ruang Perpustakaan</p>
-        <p>6.	Ruang lab komputer/ bahasa/ audio visual</p>
+        <p>6.	Ruang UKS</p>
+        <p>7.	Ruang Perpustakaan</p>
         </div>
         <div class="col-md-6">
-        <p>7.	Ruang lab science</p>
-        <p>8.	Masjid Baitul Ilmi</p>
-        <p>9.	Kamar mandi/ toilet</p>
-        <p>10.	Kantin</p>
-        <p>11.	Gudang</p>
-        <p>12.	Parkiran</p>
+        <p>8.	Ruang lab komputer/ bahasa/ audio visual</p>
+        <p>9.	Ruang lab science</p>
+        <p>10.	Masjid Baitul Ilmi</p>
+        <p>11.	Kamar mandi/ toilet</p>
+        <p>12.	Kantin</p>
+        <p>13.	Gudang</p>
+        <p>14.	Parkiran</p>
         </div>
     </div>
 

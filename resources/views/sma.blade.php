@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'SMP KAPIN')
+@section('title', 'SMA KAPIN')
 @section('content')
 
 
@@ -7,9 +7,9 @@
   <div class="row" style="padding-top:2vh">
   <div class="col-md-12">
     <div class="card text-white">
-      <img class="card-img" src="/assets/img/smp/head-1.jpeg" alt="Card image" style="padding:0">
+      <img class="card-img" src="/assets/img/sma/head-1.png" alt="Card image" style="padding:0">
       <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
-        <h5 class="card-title head-text">SMP KAPIN</h5>
+        <h5 class="card-title head-text">SMA KAPIN</h5>
       </div>
     </div>
   </div>
@@ -19,19 +19,17 @@
 <div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
     <h5 class="mt-5" style="color:#ff781f">VISI</h5>
-    <p class="mb-5">Menjadikan SMP KAPIN sebagai Lembaga Pendidikan yang bermutu dan membentuk peserta Didik Memiliki pengetahuan dan berlandaskan Iman dan Taqwa serta menguasai Teknologi sebagai SDM yang berkualitas</p>
+    <p class="mb-5">Terwujudnya karakter insan yang beriman dan bertakwa, handal, kreatif, inovatif serta Menguasai IPTEK.</p>
     
     <h5 class="mt-5" style="color:#ff781f">MISI</h5>
     <p class="mb-5">
-    1.	Meningkatkan kegiatan pembelajaran yang berkualitas
-    <br>2.	Meningkatkan sumber daya tenaga kependidikan dan peserta didik dalam menguasai IPTEK dan IMTAQ
-    <br>3.	Mempersiapkan peserta didik untuk melanjutkan pendidikan ke jenjang yang lebih tinggi.
-    <br>4.	Menciptakan kepedulian peserta didik terhadap lingkungan dan budaya lokal.
-    <br>5.	Mempersiapkan peserta didik sebagai individu yang baik dan mandiri di tengah masyarakat.
-
+    Mengembangkan potensi peserta didik menjadi manusia yang berbudi pekerti Luhur / berakhlaq mulia.
+    <br>1.	Menumbuhkembangkan sikap kreatif, inovatif, dan yang bermanfaat bagi masyarakat.
+    <br>2.	Mengimplementasikan KBM yang efektif dengan memanfaatkan teknologi.
+    <br>3.	Membentuk kepribadian dengan melaksanakan ibadah wajib dan sunah secara teratur.
     </p>
     <p class="mb-5">
-    <strong># PERCAYA DIRI MERAIH PRESTASI #</strong>
+    <strong># GENERASI BERPRESTASI GENERASI BERSINERGI #</strong>
     </p>
 </div>
 
@@ -85,8 +83,8 @@
 
 <div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3 pb-4">KURIKULUM</h1>
-    <h5 class="pt-3 pb-4 text-center">STRUKTUR KURIKULUM SMP KAPIN JAKARTA (Kurikulum 2013)</h5>
-    <img class="img-fluid d-block mx-auto" src="/assets/img/smp/kurikulum-smp.png" alt="">
+    <h5 class="pt-3 pb-4 text-center">STRUKTUR KURIKULUM SMA KAPIN JAKARTA (Kurikulum 2013)</h5>
+    <img class="img-fluid d-block mx-auto" src="/assets/img/sma/kurikulum-sma.png" alt="">
 </div>
 
 <div class="container-fluid section text-section" style="">

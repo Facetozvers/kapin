@@ -1,38 +1,103 @@
 @extends('layouts.main')
-@section('title', 'SMP KAPIN')
+@section('title', 'SMK KAPIN')
 @section('content')
 
 
 <div class="container-fluid head-bg">
-  <div class="row" style="padding-top:2vh">
-  <div class="col-md-12">
-    <div class="card text-white">
-      <img class="card-img" src="/assets/img/smp/head-1.jpeg" alt="Card image" style="padding:0">
-      <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
-        <h5 class="card-title head-text">SMP KAPIN</h5>
-      </div>
+  <div class="row justify-content-center" style="padding-top:2vh">
+    <div class="col-md-12 p-0">
+        <div class="card text-white">
+        <img class="card-img" src="/assets/img/smp/head-1.jpeg" alt="Card image" style="padding:0">
+        <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
+            <h5 class="card-title head-text">SMK KAPIN</h5>
+        </div>
+        </div>
     </div>
-  </div>
+    <div class="col-md-12" style="background:#c4c4c4">
+      <ul class="nav nav-kompetensi justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="/smk/tkj">TKJ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">/</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/smk/titl">TITL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">/</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/smk/tkr">TKR</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">/</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/smk/multimedia">MULTIMEDIA</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
-<div class="container-fluid section text-section" style="">
+<div class="container-fluid section text-section" >
     <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
     <h5 class="mt-5" style="color:#ff781f">VISI</h5>
-    <p class="mb-5">Menjadikan SMP KAPIN sebagai Lembaga Pendidikan yang bermutu dan membentuk peserta Didik Memiliki pengetahuan dan berlandaskan Iman dan Taqwa serta menguasai Teknologi sebagai SDM yang berkualitas</p>
+    <p class="mb-5">Menghasilkan lulusan yang berakhlak mulia, unggul dalam kompetensi kejuruan dan penguasaan teknologi untuk menghadapi persaingan global dan masyarakat MEA (Masyarakat Ekonomi Asean) serta melanjutkan ke perguruan tinggi</p>
     
     <h5 class="mt-5" style="color:#ff781f">MISI</h5>
     <p class="mb-5">
-    1.	Meningkatkan kegiatan pembelajaran yang berkualitas
-    <br>2.	Meningkatkan sumber daya tenaga kependidikan dan peserta didik dalam menguasai IPTEK dan IMTAQ
-    <br>3.	Mempersiapkan peserta didik untuk melanjutkan pendidikan ke jenjang yang lebih tinggi.
-    <br>4.	Menciptakan kepedulian peserta didik terhadap lingkungan dan budaya lokal.
-    <br>5.	Mempersiapkan peserta didik sebagai individu yang baik dan mandiri di tengah masyarakat.
+    Untuk mewujudkan visi tersebut diatas, SMK KAPIN JAKARTA mempunyai misi sebagai berikut:
+    <br>1.	Melaksanakan pembelajaran yang berorientasi dan merujuk pada kurikulum nasional dan kebutuhan pasar kerja agar ada link and match
+    <br>2.	Melaksanakan pembelajaran dan kegiatan yang berorientasi kepada pembentukan karakter akhlak mulia, budi pekerti serta etos kerja
+    <br>3.	Melaksanakan pembelajaran yang berorientasi kepada kemampuan berfikir, objektif, logis, kritis dan sitematis
+    <br>4.	Melaksanakan pembelajaran kewirausahaan dengan membentuk jiwa enterpreneurship yang profesional
 
     </p>
     <p class="mb-5">
     <strong># PERCAYA DIRI MERAIH PRESTASI #</strong>
     </p>
+</div>
+
+<div class="container-fluid section text-section" >
+    <h1 class="section-title section-title-orange pt-3">KOMPETENSI</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-6 pb-4">
+        <div class="card bg-dark text-white kompetensi-card">
+          <img class="card-img kompetensi-img" src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" alt="Card image">
+          <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
+              <h5 class="card-title kompetensi-text">TEKNIK KOMPUTER DAN JARINGAN</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 pb-4">
+        <div class="card bg-dark text-white kompetensi-card">
+          <img class="card-img kompetensi-img" src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" alt="Card image">
+          <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
+              <h5 class="card-title kompetensi-text">TEKNIK INSTALASI TENAGA LISTRIK</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 pb-4">
+        <div class="card bg-dark text-white kompetensi-card">
+          <img class="card-img kompetensi-img" src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" alt="Card image">
+          <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
+              <h5 class="card-title kompetensi-text">TEKNIK KENDARAAN RINGAN</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 pb-4">
+        <div class="card bg-dark text-white kompetensi-card">
+          <img class="card-img kompetensi-img" src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" alt="Card image">
+          <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
+              <h5 class="card-title kompetensi-text">MULTIMEDIA</h5>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 
 <div class="container-fluid section" style="background: #ff781f">
@@ -81,12 +146,6 @@
         </div>
       </div>
     </div>
-</div>
-
-<div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3 pb-4">KURIKULUM</h1>
-    <h5 class="pt-3 pb-4 text-center">STRUKTUR KURIKULUM SMP KAPIN JAKARTA (Kurikulum 2013)</h5>
-    <img class="img-fluid d-block mx-auto" src="/assets/img/smp/kurikulum-smp.png" alt="">
 </div>
 
 <div class="container-fluid section text-section" style="">

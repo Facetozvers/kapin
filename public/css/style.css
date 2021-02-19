@@ -268,3 +268,52 @@ body{
 .pengurus-title{
   font-size: 1.5vh;
 }
+
+.head-text{
+  font-size: 8vh;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kompetensi-head-text{
+  font-size: 6vh;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kompetensi-img{
+  height: 17vh;
+  object-fit: cover;
+}
+
+.kompetensi-text{
+  font-size: 2.5vh;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-kompetensi{
+  font-family: poppins;
+  font-weight: 400;
+}
+
+.nav-kompetensi .active{
+  color: #ff781f;
+}
+
+.nav-kompetensi a{
+  color: black;
+}
+
+.nav-kompetensi a:hover{
+  color: #ff781f;
+}

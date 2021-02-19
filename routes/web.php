@@ -17,6 +17,12 @@ Route::get('/', 'PageController@index');
 Route::get('/kegiatan', 'PageController@kegiatan');
 Route::get('/yayasan', 'PageController@yayasan');
 Route::get('/smp', 'PageController@smp');
+Route::get('/sma', 'PageController@sma');
+Route::get('/smk', 'PageController@smk');
+Route::get('/smk/tkj', 'PageController@tkj');
+Route::get('/smk/titl', 'PageController@titl');
+Route::get('/smk/tkr', 'PageController@tkr');
+Route::get('/smk/multimedia', 'PageController@multimedia');
 
 Auth::routes();
 
