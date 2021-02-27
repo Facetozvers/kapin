@@ -64,38 +64,46 @@
     <h1 class="section-title section-title-orange pt-3">KOMPETENSI</h1>
     <div class="row justify-content-center">
       <div class="col-md-6 pb-4">
-        <div class="card bg-dark text-white kompetensi-card">
-          <img class="card-img kompetensi-img" src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" alt="Card image">
+      <a href="/smk/tkj">
+        <div class="card bg-dark text-white kompetensi-card zoom">
+          <img class="card-img kompetensi-img" src="https://smkn1wayserdang.sch.id/media_library/posts/large/3ac32111ab690e6caa19b590f6dbf25b.jpg" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">TEKNIK KOMPUTER DAN JARINGAN</h5>
           </div>
         </div>
+      </a>
       </div>
       <div class="col-md-6 pb-4">
-        <div class="card bg-dark text-white kompetensi-card">
-          <img class="card-img kompetensi-img" src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" alt="Card image">
+      <a href="/smk/titl">
+        <div class="card bg-dark text-white kompetensi-card zoom">
+          <img class="card-img kompetensi-img" src="https://www.smkmutumalang.sch.id/wp-content/uploads/2019/09/smk-mutu-gondanglegi-jurusan-kompetensi-keahlian-instalasi-tenaga-listrik-1024x683.jpg" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">TEKNIK INSTALASI TENAGA LISTRIK</h5>
           </div>
         </div>
+      </a>
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-md-6 pb-4">
-        <div class="card bg-dark text-white kompetensi-card">
-          <img class="card-img kompetensi-img" src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" alt="Card image">
+      <a href="/smk/tkr">
+        <div class="card bg-dark text-white kompetensi-card zoom">
+          <img class="card-img kompetensi-img" src="https://1.bp.blogspot.com/-lTkEf3XkRqg/WgkC_PvvMQI/AAAAAAAACkA/MEM5wv1oI_gCoT4l3t1nErjHRq8Vro19wCEwYBhgL/s640/mesinbalap.JPG" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">TEKNIK KENDARAAN RINGAN</h5>
           </div>
         </div>
+      </a>
       </div>
       <div class="col-md-6 pb-4">
-        <div class="card bg-dark text-white kompetensi-card">
-          <img class="card-img kompetensi-img" src="https://shahpourpouyan.com/wp-content/uploads/2018/10/orionthemes-placeholder-image-1.png" alt="Card image">
+      <a href="/smk/multimedia">
+        <div class="card bg-dark text-white kompetensi-card zoom">
+          <img class="card-img kompetensi-img" src="https://smkn3merauke.sch.id/wp-content/uploads/2020/04/11.png" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">MULTIMEDIA</h5>
           </div>
         </div>
+      </a>
       </div>
     </div>
 </div>

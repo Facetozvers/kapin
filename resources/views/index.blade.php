@@ -13,6 +13,7 @@
   <h1 class="section-title text-center">Akademik</h1>
   <div class="row justify-content-center">
     <div class="col-md-3">
+    <a href="/smp">
       <div class="card tingkat-card zoom">
         <img class="tingkat-img card-img" src="https://www.kalderanews.com/wp-content/uploads/2019/03/Siswa-SMP-MTS.jpg" alt="Bologna">
         <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
@@ -21,26 +22,31 @@
           </div>
         </div>
       </div>
+    </a>
     </div>
     <div class="col-md-3">
+    <a href="/sma">
       <div class="card tingkat-card zoom">
-        <img class="tingkat-img card-img" src="https://www.kalderanews.com/wp-content/uploads/2019/03/Siswa-SMP-MTS.jpg" alt="Bologna">
+        <img class="tingkat-img card-img" src="https://i2.wp.com/hulondalo.id/wp-content/uploads/2020/05/ilustrasi-pendaftaran-siswa-baru-f.-BPI2-Bandung.jpg?resize=664%2C458&ssl=1" alt="Bologna">
         <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
           <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
             <h1 class="tingkat-title card-title text-center my-3" style="margin:0">SMA</h1>
           </div>
         </div>
       </div>
+    </a>
     </div>
     <div class="col-md-3">
+    <a href="/smk">
       <div class="card tingkat-card zoom">
-        <img class="tingkat-img card-img" src="https://www.kalderanews.com/wp-content/uploads/2019/03/Siswa-SMP-MTS.jpg" alt="Bologna">
+        <img class="tingkat-img card-img" src="https://images.bisnis-cdn.com/posts/2017/04/17/645625/antarafoto-unbk-smk-di-bogor-030417-ysw-1.jpg" alt="Bologna">
         <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
           <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
             <h1 class="tingkat-title card-title text-center my-3" style="margin:0">SMK</h1>
           </div>
         </div>
       </div>
+    </a>
     </div>
   </div>
 </div>
