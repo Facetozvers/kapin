@@ -33,7 +33,7 @@
     </head>
     <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
             <div class="row">
                 <div class="col-md-5">
                     <img src="/assets/logo.png" height="150" width="150" alt="">
