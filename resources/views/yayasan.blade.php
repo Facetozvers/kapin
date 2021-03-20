@@ -10,14 +10,14 @@
 </div>
 <div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3">TENTANG KAPIN</h1>
-    <p class="mb-5">Yayasan Pendidikan Kader Pembangunan Indonesia (YP KAPIN) didirikan sejak tahun 1966 di Jakarta, namun sejak tahun 2008 dilakukan perubahan menjadi Yayasan Pendidikan Teknologi Kader Pembangunan Indonesia (YPT KAPIN). Nama tersebut diambil dari nama sebuah perusahaan PT Kapal Indonesia yang berada di daerah Tanjung Priuk Jakarta Utara, nama ini diambil berdasarkan dukungan dan persetujuan yang diberikan oleh pimpinan PT Kapal Indonesia. <br><br>
+    <p class="mb-5 pt-2">Yayasan Pendidikan Kader Pembangunan Indonesia (YP KAPIN) didirikan sejak tahun 1966 di Jakarta, namun sejak tahun 2008 dilakukan perubahan menjadi Yayasan Pendidikan Teknologi Kader Pembangunan Indonesia (YPT KAPIN). Nama tersebut diambil dari nama sebuah perusahaan PT Kapal Indonesia yang berada di daerah Tanjung Priuk Jakarta Utara, nama ini diambil berdasarkan dukungan dan persetujuan yang diberikan oleh pimpinan PT Kapal Indonesia. <br><br>
     YPT KAPIN bergerak dibidang pendidikan umum dan pendidikan teknologi. Bermula dari Sekolah Teknik Menengah (STM) yang berlokasi di Jln. Gatot Subroto, Pancoran, Jakarta Selatan. Tahun 1980 YPT KAPIN mendirikan sekolah untuk pendidikan umum tingkat SMP dan SMA di wilayah kalimalang, Pondok Kelapa, Jakarta Timur. Hingga saat ini YPT KAPIN telah berkiprah di dunia pendidikan selama 54 tahun menaungi Sekolah lanjutan tingkat SMP, SMA, dan SMK dan telah meluluskan ribuan siswa.
     </p>
 </div>
 
 <div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
-    <h5 class="mt-5" style="color:#ff781f">VISI</h5>
+    <h5 class="mt-4" style="color:#ff781f">VISI</h5>
     <p class="mb-5">Yayasan Pendidikan KAPIN bertujuan menghasilkan lulusan yang taqwa, cerdas, terampil, kreatif, mandiri, dan disiplin untuk mengarah pada ISO 9001.</p>
     
     <h5 class="mt-5" style="color:#ff781f">MISI</h5>
@@ -29,7 +29,7 @@
     <div class="row justify-content-center">
       <div class="col-md-3">
         <div class="card" style="margin-bottom:4vh">
-            <img class="tingkat-img card-img" src="https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg" alt="Bologna">
+            <img class="tingkat-img card-img" src="/assets/img/yayasan/ketua.jpg" alt="Bologna">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
                 <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
                     <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Maryana Muchtar, S.H</h5>
@@ -40,7 +40,7 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin-bottom:4vh">
-            <img class="tingkat-img card-img" src="https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg" alt="Bologna">
+            <img class="tingkat-img card-img" src="/assets/img/yayasan/sekretaris.jpg" alt="Bologna">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
                 <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
                     <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Drs. Izzudin Madjid</h5>
@@ -51,7 +51,7 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="margin-bottom:4vh">
-            <img class="tingkat-img card-img" src="https://schooloflanguages.sa.edu.au/wp-content/uploads/2017/11/placeholder-profile-sq.jpg" alt="Bologna">
+            <img class="tingkat-img card-img" src="/assets/img/yayasan/bendahara.jpg" alt="Bologna">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
                 <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
                     <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Sri Yati</h5>
@@ -64,53 +64,50 @@
 </div>
 
 <div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3 pb-4">LEMBAGA PENDIDIKAN</h1>
+    <h1 class="text-center section-title section-title-orange pt-3 pb-4">LEMBAGA PENDIDIKAN</h1>
     <div class="row justify-content-center">
-        <div class="w-100 d-block pb-3">
-            <div class="kegiatan-button px-2 py-2">
-                <button class="button-no-outline navbar-toggler w-100 text-left" type="button" data-toggle="collapse" data-target="#TogglerSMP" aria-controls="TogglerSMP" aria-expanded="false" aria-label="Toggle navigation">
-                + SMP KAPIN
-                </button>
+        <div class="col-md-3">
+        <a href="/smp">
+        <div class="card tingkat-card zoom">
+            <img class="tingkat-img card-img" src="https://www.kalderanews.com/wp-content/uploads/2019/03/Siswa-SMP-MTS.jpg" alt="Bologna">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
+            <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
+                <h1 class="tingkat-title card-title text-center my-3" style="margin:0">SMP</h1>
             </div>
-            <div class="kegiatan-button-content collapse" id="TogglerSMP">
-                <div class=" p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
             </div>
         </div>
-        <div class="w-100 d-block pb-3">
-            <div class="kegiatan-button px-2 py-2">
-                <button class="button-no-outline navbar-toggler w-100 text-left" type="button" data-toggle="collapse" data-target="#TogglerSMA" aria-controls="TogglerSMA" aria-expanded="false" aria-label="Toggle navigation">
-                + SMA KAPIN
-                </button>
+        </a>
+        </div>
+        <div class="col-md-3">
+        <a href="/sma">
+        <div class="card tingkat-card zoom">
+            <img class="tingkat-img card-img" src="https://i2.wp.com/hulondalo.id/wp-content/uploads/2020/05/ilustrasi-pendaftaran-siswa-baru-f.-BPI2-Bandung.jpg?resize=664%2C458&ssl=1" alt="Bologna">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
+            <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
+                <h1 class="tingkat-title card-title text-center my-3" style="margin:0">SMA</h1>
             </div>
-            <div class="kegiatan-button-content collapse" id="TogglerSMA">
-                <div class=" p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
             </div>
         </div>
-        <div class="w-100 d-block pb-3">
-            <div class="kegiatan-button px-2 py-2">
-                <button class="button-no-outline navbar-toggler w-100 text-left" type="button" data-toggle="collapse" data-target="#TogglerSMK" aria-controls="TogglerSMK" aria-expanded="false" aria-label="Toggle navigation">
-                + SMK KAPIN
-                </button>
+        </a>
+        </div>
+        <div class="col-md-3">
+        <a href="/smk">
+        <div class="card tingkat-card zoom">
+            <img class="tingkat-img card-img" src="https://images.bisnis-cdn.com/posts/2017/04/17/645625/antarafoto-unbk-smk-di-bogor-030417-ysw-1.jpg" alt="Bologna">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
+            <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
+                <h1 class="tingkat-title card-title text-center my-3" style="margin:0">SMK</h1>
             </div>
-            <div class="kegiatan-button-content collapse" id="TogglerSMK">
-                <div class=" p-4">
-                    <h5 class="text-dark h4">Collapsed content</h5>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                </div>
             </div>
+        </div>
+        </a>
         </div>
     </div>
 </div>
 
 <div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3">SARANA & PRASARANA</h1>
-    <h5 class="mt-5" style="color:#ff781f">LOKASI</h5>
+    <h1 class="section-title section-title-orange pt-5">SARANA & PRASARANA</h1>
+    <h5 class="mt-4" style="color:#ff781f">LOKASI</h5>
     <p class="mb-5">Lokasi terletak di JL. Raya KAPIN Kelurahan Pondok Kelapa Kecamatan Duren Sawit, Kota Administrasi Jakarta Timur dengan luas bangunan sebesar 2.617 m2.</p>
     
     <h5 class="mt-5" style="color:#ff781f">KONDISI BANGUNAN</h5>

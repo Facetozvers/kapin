@@ -89,7 +89,7 @@
                 <div class="col-md-1 col-1 text-center">
                     <i class="icon fa fa-map-marker"></i>
                 </div>
-                <div class="col-md-6 col-10">
+                <div class="col-md-8 col-10">
                     <p>Jl Raya Kalimalang Kel. Pondok Kelapa<br>Kec. Duren Sawit, Kota Jakarta Timur<br>DKI Jakarta</p>
                 </div>
                 </div>
