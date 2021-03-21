@@ -56,12 +56,12 @@
     <div class="row justify-content-center">
       <div class="col-md-4 col-5">
         <div class="card">
-          <img src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" class="card-img-top" alt="...">
+          <img src="/assets/img/tentang-kapin/img-1.jpg" class="card-img-top about-img" alt="...">
         </div>
       </div>
       <div class="col-md-4 col-5">
         <div class="card">
-          <img src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" class="card-img-top" alt="...">
+          <img src="/assets/img/tentang-kapin/img-2.jpg" class="card-img-top about-img" alt="...">
         </div>
       </div>
     </div>

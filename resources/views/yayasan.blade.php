@@ -5,7 +5,7 @@
 
 <div class="container-fluid head-bg">
   <div class="row">
-    <img src="/assets/img/yayasan/head-1.jpeg" alt="">
+    <img src="/assets/img/yayasan/head-1.jpg" alt="">
   </div>
 </div>
 <div class="container-fluid section text-section" style="">
