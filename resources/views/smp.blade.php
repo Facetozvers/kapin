@@ -68,13 +68,13 @@
 
     <div class="row justify-content-center">
         <div class="col-md-4 mb-5">
-            <img class="img-kegiatan rounded mx-auto d-block w-100" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" style="" alt="">
+            <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/ruangan/lapangan.jpg" style="" alt="">
         </div>
         <div class="col-md-4 mb-5">
-            <img class="img-kegiatan rounded mx-auto d-block w-100" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" style="" alt="">
+            <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/ruangan/lab-komp.jpg" style="" alt="">
         </div>
         <div class="col-md-4 mb-5">
-            <img class="img-kegiatan rounded mx-auto d-block w-100" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" style="" alt="">
+            <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/ruangan/perpustakaan.jpg" style="" alt="">
         </div>
     </div>
 

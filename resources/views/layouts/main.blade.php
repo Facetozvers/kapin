@@ -50,28 +50,28 @@
 
         <div class="collapse navbar-collapse flex-column" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item {{(request()->is('/')) ? 'active' : '' }}">
                     <a class="nav-link" href="/">Beranda</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{(request()->is('yayasan*')) ? 'active' : '' }}">
                     <a class="nav-link" href="/yayasan">Yayasan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/kegiatan">Kegiatan</a>
+                    <a class="nav-link {{(request()->is('kegiatan*')) ? 'active' : '' }}" href="/kegiatan">Kegiatan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link {{(request()->is('contact')) ? 'active' : '' }}" href="#">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav flex-row mb-2 ml-auto">
                 <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="/smp">SMP</a>
+                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center {{(request()->is('smp*')) ? 'active' : '' }}" href="/smp">SMP</a>
                 </li>
                 <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="/sma">SMA</i></a>
+                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center {{(request()->is('sma*')) ? 'active' : '' }}" href="/sma">SMA</i></a>
                 </li>
                 <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="/smk">SMK</i></a>
+                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center {{(request()->is('smk*')) ? 'active' : '' }}" href="/smk">SMK</i></a>
                 </li>
             </ul>
         </div>

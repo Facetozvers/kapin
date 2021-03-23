@@ -85,13 +85,13 @@
 
     <div class="row justify-content-center">
         <div class="col-md-4 mb-5">
-            <img class="img-kegiatan rounded mx-auto d-block w-100" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" style="" alt="">
+            <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/ruangan/lapangan.jpg" style="" alt="">
         </div>
         <div class="col-md-4 mb-5">
-            <img class="img-kegiatan rounded mx-auto d-block w-100" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" style="" alt="">
+            <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/ruangan/lab-komp.jpg" style="" alt="">
         </div>
         <div class="col-md-4 mb-5">
-            <img class="img-kegiatan rounded mx-auto d-block w-100" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" style="" alt="">
+            <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/ruangan/perpustakaan.jpg" style="" alt="">
         </div>
     </div>
 
@@ -118,22 +118,22 @@
     </div>
 </div>
 
-<div class="container-fluid section text-section">
+<div class="container-fluid section text-section foto-section">
   <h1 class="section-title section-title-orange pt-3 pb-5">FOTO</h1>
   <div class="row justify-content-center">
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tkr/foto-1.jpeg" alt="Card image cap" style="height:250px">
       </div>
     </div>
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tkr/foto-2.jpeg" alt="Card image cap" style="height:250px">
       </div>
     </div>
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tkr/foto-3.jpeg" alt="Card image cap" style="height:250px">
       </div>
     </div>
     <div class="col-md-4 col-6 mb-5">
