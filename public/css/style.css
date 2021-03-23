@@ -76,7 +76,7 @@ body{
   padding-top: 2vh;
   padding-bottom: 2vh;
   width: 100%;
-  max-height:650px;
+  max-height:550px;
   object-fit: cover;
 }
 
@@ -258,6 +258,7 @@ body{
   padding-top: 4vh;
   padding-bottom: 4vh;
 }
+
 
 .kegiatan-button{
   border:1px black solid;
