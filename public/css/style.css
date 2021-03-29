@@ -96,15 +96,13 @@ body{
   object-fit: cover;
 }
 
-.hero-section {
+.hero-section-carousel .carousel-inner {
   background: rgb(255,120,31);
-  background: linear-gradient(90deg, rgba(255,120,31,1) 23%, rgba(252,174,30,1) 65%);
 }
 
-.hero-section img {
+.hero-section-carousel img {
   object-fit:cover;
-  width: 60%;
-  height:auto;
+  height:600px;
   margin: auto;
 }
 
