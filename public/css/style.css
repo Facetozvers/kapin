@@ -42,7 +42,15 @@ body{
   font-weight: 600;
   font-size: 15px;
   color: white;
-  background:#ff781f
+  background:#ff781f;
+  border: 1px solid #ff781f;
+  transition: 0.5s;
+}
+
+.navbar .nav-item .secondary:hover{
+  color:#ff781f;
+  background-color:white;
+  border: 1px solid #ff781f;
 }
 
 
@@ -342,4 +350,24 @@ body{
   max-height: 300px;
   object-fit: cover;
 }
+
+.navbar-nav .active > .nav-link{
+  color:#ff781f;
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, 0.877);
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  color: #ff791f
+}
+
+.navbar-nav .active > .secondary{
+  color:#ff781f;
+  background-color:white;
+  border: 1px solid #ff781f;
+}
+
 

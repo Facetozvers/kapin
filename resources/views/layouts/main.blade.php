@@ -32,14 +32,14 @@
         <link rel="stylesheet" href="/css/style.css?v=2">
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-light">
         <a class="navbar-brand" href="/">
             <div class="row">
                 <div class="col-md-5">
                     <img src="/assets/logo.png" height="150" width="150" alt="">
                 </div>
                 <div class="col-md-5 mt-1">
-                    <p class="logo-text"><span class="header">KAPIN</span><br>YAYASAN PENDIDIKAN TEKNOLOGI<br>KADER PEMBANGUNAN INDONESIA</p>
+                    <p class="logo-text" style="color:black"><span class="header">KAPIN</span><br>YAYASAN PENDIDIKAN TEKNOLOGI<br>KADER PEMBANGUNAN INDONESIA</p>
                 </div>
             </div>
             
@@ -56,22 +56,22 @@
                 <li class="nav-item {{(request()->is('yayasan*')) ? 'active' : '' }}">
                     <a class="nav-link" href="/yayasan">Yayasan</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link {{(request()->is('kegiatan*')) ? 'active' : '' }}" href="/kegiatan">Kegiatan</a>
+                <li class="nav-item {{(request()->is('kegiatan*')) ? 'active' : '' }}">
+                    <a class="nav-link" href="/kegiatan">Kegiatan</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link {{(request()->is('contact')) ? 'active' : '' }}" href="#">Contact</a>
+                <li class="nav-item {{(request()->is('contact')) ? 'active' : '' }}">
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav flex-row mb-2 ml-auto">
-                <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center {{(request()->is('smp*')) ? 'active' : '' }}" href="/smp">SMP</a>
+                <li class="nav-item pr-1 {{(request()->is('smp*')) ? 'active' : '' }}">
+                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="/smp">SMP</a>
                 </li>
-                <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center {{(request()->is('sma*')) ? 'active' : '' }}" href="/sma">SMA</i></a>
+                <li class="nav-item pr-1 {{(request()->is('sma*')) ? 'active' : '' }}">
+                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="/sma">SMA</i></a>
                 </li>
-                <li class="nav-item pr-1">
-                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center {{(request()->is('smk*')) ? 'active' : '' }}" href="/smk">SMK</i></a>
+                <li class="nav-item pr-1 {{(request()->is('smk*')) ? 'active' : '' }}">
+                    <a class="nav-link secondary py-1 pr-4 pl-4 text-center" href="/smk">SMK</i></a>
                 </li>
             </ul>
         </div>
