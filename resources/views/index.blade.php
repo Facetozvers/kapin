@@ -89,17 +89,17 @@
     </div>
 
     <div class="row about mt-5 " style="padding-left: 15vw;padding-right:15vw">
-      <h1 class="about-heading mb-3">Heading</h1>
-      <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi. Sed velit dignissim sodales ut. Ultrices sagittis orci a scelerisque purus semper eget duis at. Lectus arcu bibendum at varius vel. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Sodales ut etiam sit amet nisl purus in mollis. Magna fermentum iaculis eu non diam phasellus. Ut sem viverra aliquet eget sit. Egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate.</p>
+      <p class="about-text">Yayasan Pendidikan Kader Pembangunan Indonesia (YP KAPIN) didirikan sejak tahun 1966 di Jakarta, namun sejak tahun 2008 dilakukan perubahan menjadi Yayasan Pendidikan Teknologi Kader Pembangunan Indonesia (YPT KAPIN). Nama tersebut diambil dari nama sebuah perusahaan PT Kapal Indonesia yang berada di daerah Tanjung Priuk Jakarta Utara, nama ini diambil berdasarkan dukungan dan persetujuan yang diberikan oleh pimpinan PT Kapal Indonesia. <br><br>
+    YPT KAPIN bergerak dibidang pendidikan umum dan pendidikan teknologi. Bermula dari Sekolah Teknik Menengah (STM) yang berlokasi di Jln. Gatot Subroto, Pancoran, Jakarta Selatan. Tahun 1980 YPT KAPIN mendirikan sekolah untuk pendidikan umum tingkat SMP dan SMA di wilayah kalimalang, Pondok Kelapa, Jakarta Timur. Hingga saat ini YPT KAPIN telah berkiprah di dunia pendidikan selama 54 tahun menaungi Sekolah lanjutan tingkat SMP, SMA, dan SMK dan telah meluluskan ribuan siswa.</p>
     </div>
 
     <div class="row justify-content-center about-numbers">
       <div class="col-md-3 col-12">
         <div class="diamond-shape">
-          <div class="item-count">99</div>
+          <div class="item-count">50</div>
         </div>
         <div class="diamond-text">
-          <p class="text-center">Pengalaman lebih dari 20 Tahun</p>
+          <p class="text-center">Pengalaman lebih dari 50 Tahun</p>
         </div>  
       </div>
       <div class="col-md-3 col-12">
@@ -112,10 +112,10 @@
       </div>
       <div class="col-md-3 col-12">
         <div class="diamond-shape">
-          <div class="item-count">99</div>
+          <div class="item-count">5000+</div>
         </div>  
         <div class="diamond-text">
-          <p class="text-center">3000 + Siswa telah kami bimbing</p>
+          <p class="text-center">5000+ Siswa telah kami bimbing</p>
         </div>
       </div>
     </div>
