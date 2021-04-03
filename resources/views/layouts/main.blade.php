@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
         <title>@yield('title')</title>
-        <link rel="stylesheet" href="/css/style.css?v=2.1">
+        <link rel="stylesheet" href="/css/style.css?v=2.1.1">
     </head>
     <body>
     <nav class="navbar navbar-expand-lg bg-light">

@@ -193,10 +193,10 @@ body{
 
 .diamond-shape {
   background: #fff;
-  height: 11vh;
+  height: 14vh;
   text-align: center;
   transform:rotate(45deg);
-  width:11vh;
+  width:14vh;
   margin:auto;
 }
 
@@ -216,13 +216,13 @@ body{
 .item-count {
   font-family: poppins;
   font-weight: 600;
-  font-size: 4vh;
+  font-size: 1.5vw;
   color: #333;
   display: table-cell;
-  height: 11vh;
+  height: 14vh;
   transform: rotate(-45deg);
   vertical-align: middle;
-	width:11vh;
+	width:14vh;
 }
 
 .container-shape {
@@ -285,10 +285,10 @@ body{
 }
 
 .pengurus-name{
-  font-size: 2vh;
+  font-size: 1.3vw;
 }
 .pengurus-title{
-  font-size: 1.5vh;
+  font-size: 1vw;
 }
 
 .head-text{

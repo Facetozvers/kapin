@@ -96,7 +96,7 @@
     <div class="row justify-content-center about-numbers">
       <div class="col-md-3 col-12">
         <div class="diamond-shape">
-          <div class="item-count">50</div>
+          <div class="item-count">50<br><span style="font-size:1vw">Tahun</span></div>
         </div>
         <div class="diamond-text">
           <p class="text-center">Pengalaman lebih dari 50 Tahun</p>
@@ -104,7 +104,7 @@
       </div>
       <div class="col-md-3 col-12">
         <div class="diamond-shape">
-          <div class="item-count">99</div>
+          <div class="item-count">8<br><span style="font-size:1vw">Ekskul</div>
         </div>  
         <div class="diamond-text">
           <p class="text-center">8 Ekstrakulikuler</p>
@@ -112,7 +112,7 @@
       </div>
       <div class="col-md-3 col-12">
         <div class="diamond-shape">
-          <div class="item-count">5000+</div>
+          <div class="item-count">5000+<br><span style="font-size:1vw">Siswa</div>
         </div>  
         <div class="diamond-text">
           <p class="text-center">5000+ Siswa telah kami bimbing</p>
