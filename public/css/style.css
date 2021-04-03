@@ -368,4 +368,34 @@ body{
   border: 1px solid #ff781f;
 }
 
+.nav-tabs {
+  border-bottom: 1px solid #ff781f;
+}
+.nav-tabs .nav-link {
+    color: gray;
+}
+
+.nav-tabs .nav-link:hover {
+    color:#ff781f;
+    border-color:white;
+    border-bottom:#dee2e6;
+}
+
+.nav-tabs .nav-link.active {
+    color: #ff781f;
+    border-color:#ff781f;
+    border-bottom: 1px solid white;
+}
+
+.contact-logo{
+  width:100px;
+  padding-top: 12px;
+  height:auto;
+  margin:auto
+}
+
+.card-lembaga{
+  border: 1px solid grey;
+  height: 450px;
+}
 

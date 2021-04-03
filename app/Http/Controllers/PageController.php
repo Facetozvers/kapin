@@ -14,6 +14,10 @@ class PageController extends Controller
         return view('kegiatan');
     }
 
+    public function contact(){
+        return view('contact');
+    }
+
     public function yayasan(){
         return view('yayasan');
     }

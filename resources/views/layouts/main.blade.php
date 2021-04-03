@@ -60,7 +60,7 @@
                     <a class="nav-link" href="/kegiatan">Kegiatan</a>
                 </li>
                 <li class="nav-item {{(request()->is('contact')) ? 'active' : '' }}">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="/contact">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav flex-row mb-2 ml-auto">

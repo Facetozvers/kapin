@@ -24,7 +24,7 @@
     <p class="mb-5">1. Menyelenggarakan kegiatan-kegiatan pendidikan dalam rangka peningkatan IMTAQ bagi Siswa, Guru, dan Karyawan.<br>2. Meningkatkan pelaksanaan kegiatan Belajar Mengajar dengan melengkapi prasarana dan sarana serta kualitas SDM.<br>3. Menyelenggarakan kegiatan-kegiatan pendidikan yang menunjang keterampilan serta seangat wira usaha agar lulusan dapat mandiri dan kreatif.<br>4. Menyelenggarakan kegiatan-kegiatan baik kurikuler maupun ekstrakulikuler dalam rangka membentuk sikap disiplin.</p>
 </div>
 
-<div class="container-fluid section " style="background: #ff781f">
+<div class="container-fluid section" style="background: #ff781f">
   <h1 class="section-title section-title-white text-center">PENGURUS YPT KAPIN</h1>
     <div class="row justify-content-center">
       <div class="col-md-3">
@@ -54,7 +54,7 @@
             <img class="tingkat-img card-img" src="/assets/img/yayasan/bendahara.jpg" alt="Bologna">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
                 <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
-                    <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Sri Yati</h5>
+                    <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Lena Fitriati</h5>
                     <p class="pengurus-tingkat text-center mb-3" style="margin:0">Bendahara</p>
                 </div>
             </div>
