@@ -27,4 +27,19 @@ Route::get('/smk/multimedia', 'PageController@multimedia');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/home', 'HomeController@index')->name('home');
+    Route::resource('categories', 'CategoryController');
+    Route::resource('tags', 'TagController');
+    Route::resource('posts', 'PostController');
+    Route::get('/trashed_posts', 'PostController@trashed')->name('posts.trashed');
+    Route::get('/restore/{id}', 'PostController@restore')->name('posts.restore');
+    Route::get('/users/{user}/profile', 'UserController@edit')->name('user.edit');
+    Route::post('/users/{user}/profile', 'UserController@update')->name('user.update');
+});
+Route::group(['middleware' => ['auth', 'VerifyAdmin']], function () {
+    Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+    Route::get('/users/index', 'UserController@index')->name('users.index');
+    Route::post('/users/{user}/admin_role', 'UserController@make_admin')->name('users.admin_role');
+    Route::post('/users/{user}/writer_role', 'UserController@make_writer')->name('users.writer_role');
+});

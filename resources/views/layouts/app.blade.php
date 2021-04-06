@@ -9,6 +9,15 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <!-- include libraries(jQuery, bootstrap) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- summernote css/js -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -18,6 +27,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('csslink')
 </head>
 <body>
     <div id="app">
@@ -51,7 +61,7 @@
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }}
+                                    {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
@@ -61,7 +71,7 @@
                                         {{ __('Logout') }}
                                     </a>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
                                 </div>
@@ -72,9 +82,48 @@
             </div>
         </nav>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
+        @auth
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-4">
+                    <div class="list-group">
+                        @if (auth()->user()->isAdmin())
+
+                            <a  class="list-group-item list-group-item-action {{ Request::is('users/index') ? 'active' : '' }}" href="{{route('users.index')}}">Users</a>
+
+
+                        @endif
+
+                            <a class="list-group-item list-group-item-action {{ Request::is('categories*') ? 'active' : '' }}" href="{{route('categories.index')}}">Categories</a>
+
+
+                            <a class="list-group-item list-group-item-action {{ Request::is('tags*') ? 'active' : '' }}" href="{{route('tags.index')}}">Tags</a>
+
+
+                            <a class="list-group-item list-group-item-action {{ Request::is('posts*') ? 'active' : '' }}" href="{{route('posts.index')}}">Posts</a>
+
+
+                            <a  class="list-group-item list-group-item-action {{ Request::is('trashed*') ? 'active' : '' }}" href="{{route('posts.trashed')}}">Trashed Posts</a>
+
+                            <a class="list-group-item list-group-item-action {{ Request::is('users/*/profile') ? 'active' : '' }}" href="{{route('user.edit',auth()->user()->id)}}">Profile</a>
+
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+
+                    <main>
+                        @yield('content')
+                    </main>
+                </div>
+            </div>
+        </div>
+        @else
+            <main class="py-4">
+                @yield('content')
+            </main>
+        @endauth
     </div>
+    @yield('script');
 </body>
 </html>
