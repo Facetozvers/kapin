@@ -49,4 +49,8 @@ class PageController extends Controller
     public function multimedia(){
         return view('smk.multimedia');
     }
+
+    public function blog(){
+        return view('single-blog');
+    }
 }

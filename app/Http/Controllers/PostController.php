@@ -10,6 +10,7 @@ use App\Tag;
 use App\Category;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use File;
 
 class PostController extends Controller
 {
@@ -20,7 +21,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $posts_pagination = Post::paginate(5);
+        $posts_pagination = Post::paginate(8);
         return view('posts.index')->with('posts', $posts_pagination);
     }
 
@@ -82,7 +83,7 @@ class PostController extends Controller
     {
         $user = $post->user;
         $latestpost = Post::orderBy('created_at', 'desc')->take(5)->get();
-        return view('pages.single', ['post' => $post, 'categories' => Category::all(), 'tags' => Tag::all(), 'user' => $user, 'latest' => $latestpost]);
+        return view('single-blog', ['post' => $post, 'categories' => Category::all(), 'tags' => Tag::all(), 'user' => $user, 'latest' => $latestpost]);
     }
 
     /**
@@ -106,10 +107,11 @@ class PostController extends Controller
     public function update(UpadtePostValidation $request, Post $post)
     {
         $data = $request->only(['title', 'description', 'content', 'category_id']);
+        $file_name = Str::random(16);
         if ($request->hasfile('image')) {
-            $image = $request->image->store('images', 'public');
-            Storage::disk('public')->delete($post->image);
-            $data['image'] = $image;
+            File::delete('images/posts/'.$post->image);
+            $request->file('image')->move('images/posts/',$file_name.'.'.$request->file('image')->getClientOriginalExtension());
+            $data['image'] = $file_name.'.'.$request->file('image')->getClientOriginalExtension();
         };
         if ($request->tags_id) {
             $post->tags()->sync($request->tags_id);

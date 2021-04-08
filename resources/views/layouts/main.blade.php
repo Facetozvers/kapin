@@ -30,6 +30,7 @@
 
         <title>@yield('title')</title>
         <link rel="stylesheet" href="/css/style.css?v=2.1.1">
+        @yield('csslink')
     </head>
     <body>
     <nav class="navbar navbar-expand-lg bg-light">

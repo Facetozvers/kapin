@@ -43,7 +43,7 @@
                 @foreach ($posts as $post)
                 <tr>
                     <td>
-                        <img src="{{asset('storage/'.$post->image)}}" alt="image" style="height:100px;">
+                        <img src="/images/posts/{{$post->image}}" alt="image" style="height:100px;">
                     </td>
                     <td style="vertical-align:middle;" >{{$post->title}}</td>
                     <td style="vertical-align:middle;" class="">

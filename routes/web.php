@@ -24,6 +24,7 @@ Route::get('/smk/tkj', 'PageController@tkj');
 Route::get('/smk/titl', 'PageController@titl');
 Route::get('/smk/tkr', 'PageController@tkr');
 Route::get('/smk/multimedia', 'PageController@multimedia');
+Route::get('/blog', 'PageController@blog');
 
 Auth::routes();
 
@@ -36,6 +37,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/restore/{id}', 'PostController@restore')->name('posts.restore');
     Route::get('/users/{user}/profile', 'UserController@edit')->name('user.edit');
     Route::post('/users/{user}/profile', 'UserController@update')->name('user.update');
+    Route::get('/password/change', 'UserController@changePasswordPage');
+    Route::post('/password/change', 'UserController@changePassword')->name('changePassword');
 });
 Route::group(['middleware' => ['auth', 'VerifyAdmin']], function () {
     Route::get('/dashboard', 'DashboardController@index')->name('dashboard');

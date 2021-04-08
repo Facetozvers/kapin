@@ -1,4 +1,9 @@
 @extends('layouts.app')
+@section('csslink')
+<!-- include summernote css/js -->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+@endsection
 
 @section('content')
 <div class="card">
@@ -54,7 +59,7 @@
             @else
 
                <div>
-                   <img src="{{asset('storage/'.$post->image)}}" alt="image" class="w-100">
+                   <img src="/images/posts/{{$post->image}}" style="object-fit:cover;width:900px;height:400px" alt="image" class="w-100">
                 </div>
                 <div class="form-group">
                     <label for="image">Change Image</label>
