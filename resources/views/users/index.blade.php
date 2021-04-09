@@ -29,7 +29,6 @@
         {{-- table --}}
         <table  class="table table-striped table-bordered">
             <thead>
-                <th>Image</th>
                 <th>Username</th>
                 <th>Permissions</th>
                 <th>Action</th>
@@ -39,14 +38,11 @@
 
                 @forelse ($users as $user)
                 <tr>
-                    <td>
-                        <img src="{{$user->hasPicture() ? asset('storage/'.$user->getPicture()):$user->getGravatar()}}" style="border-radius:50%;width:80px;height:80px">
-                    </td>
                     <td style="vertical-align:middle;" >{{$user->name}}</td>
                     <td style="vertical-align:middle;"><span >{{$user->role}}</span></td>
                     <td style="vertical-align:middle;">
                         @if ($user->role=='Admin')
-                            @if ($user->name =='youssef')
+                            @if ($user->name =='kapin')
                             @else
                             <form action="{{route('users.writer_role',$user->id)}}" method="POST" class="d-inline" >
                                 @csrf

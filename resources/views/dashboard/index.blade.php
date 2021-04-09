@@ -2,7 +2,14 @@
 
 @section('content')
 <div class="container">
-
+        @if (session()->has('success'))
+        <div class="alert alert-success mt-1 mb-0 fade show flash" role="alert">
+            {{session()->get('success')}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        @endif
         <div class="col-md-12">
             <div class="row ">
                 <div class="col-md-4 ">
