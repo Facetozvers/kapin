@@ -25,6 +25,7 @@ class PostValidation extends FormRequest
     {
         return [
             'title' => 'required|unique:posts|max:255',
+            'url' => 'required|unique:posts|max:50',
             'description' => 'required',
             'content' => 'required|min:10',
             'image' => 'required|image',

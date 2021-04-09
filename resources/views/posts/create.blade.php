@@ -39,17 +39,17 @@
                 <input id="title" placeholder="Post Title" value="{{isset($post)?$post->title:old('title')}}" class="form-control" type="text" name="title">
             </div>
 
-
                 <input   value="{{Auth::user()->id}}" type="hidden" name="user_id">
 
             <div class="form-group">
-                <label for="description">description</label>
+                <label for="description">Description</label>
                 <textarea id="description"  placeholder="Post description" class="form-control" rows="2" name="description">{{isset($post)?$post->description:old('description')}}</textarea>
             </div>
             <div class="form-group">
                 <label for="content">Content</label>
                 <textarea id="content"  placeholder="Post content" class="form-control" rows="4" name="content">{{isset($post)?$post->content:old('content')}}</textarea>
             </div>
+            
             @if (!isset($post))
 
             <div class="form-group">
@@ -58,7 +58,7 @@
             </div>
             @else
 
-               <div>
+                <div>
                    <img src="/images/posts/{{$post->image}}" style="object-fit:cover;width:900px;height:400px" alt="image" class="w-100">
                 </div>
                 <div class="form-group">
@@ -88,6 +88,10 @@
                   </select>
                 </div>
               @endif
+            <div class="form-group">
+                <label for="url">URL</label>
+                <input id="url" placeholder="Buat URL, contoh: trip-smp-kapin" value="{{isset($post)?$post->url:old('url')}}" class="form-control" type="text" name="url">
+            </div>  
             <div class="form-group">
                 <button type="submit" class="btn btn-success">{{isset($post)?"Update":"Save"}}</button>
             </div>

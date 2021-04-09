@@ -48,7 +48,7 @@
                     <td>
                         <img src="/images/posts/{{$post->image}}" alt="image" style="width:120px;background-size:cover">
                     </td>
-                    <td style="vertical-align:middle;" >{{$post->title}}</td>
+                    <td style="vertical-align:middle;" ><a href="/blog/{{$post->url}}">{{Str::limit($post->title, 50, $end='...')}}</a></td>
                     <td style="vertical-align:middle;">
                         <form action="{{route('posts.destroy',$post->id)}}" method="POST" class="float-right ml-2">
                             @csrf

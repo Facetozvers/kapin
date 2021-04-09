@@ -60,6 +60,9 @@
                 <li class="nav-item {{(request()->is('kegiatan*')) ? 'active' : '' }}">
                     <a class="nav-link" href="/kegiatan">Kegiatan</a>
                 </li>
+                <li class="nav-item {{(request()->is('blog*')) ? 'active' : '' }}">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
                 <li class="nav-item {{(request()->is('contact')) ? 'active' : '' }}">
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>

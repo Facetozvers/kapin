@@ -3,11 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Post;
+use App\Category;
+use App\Tag;
 
 class PageController extends Controller
 {
     public function index(){
-        return view('index');
+        $posts = Post::take(6)->get();
+        return view('index', ['posts' => $posts]);
     }
     
     public function kegiatan(){
@@ -51,6 +56,27 @@ class PageController extends Controller
     }
 
     public function blog(){
-        return view('single-blog');
+        $posts = Post::paginate(6);
+        $categories = Category::all();
+        $tags = Tag::all();
+        return view('blog-list', ['posts' => $posts, 'categories' => $categories, 'tags' => $tags]);
+    }
+
+    public function kategori($kategori){
+        $categories_id = Category::where('name', $kategori)->first()->id;
+        $posts = Post::where('category_id', $categories_id)->paginate(6);
+        $categories = Category::all();
+        $tags = Tag::all();
+
+        return view('blog-list', ['posts' => $posts, 'categories' => $categories, 'tags' => $tags, 'nama_kategori' => $kategori]);
+    }
+
+    public function tag($tag){
+        $tags_id = Tag::where('name', $tag)->first()->id;
+        $posts = DB::table('post_tag')->join('posts', 'posts.id', '=', 'post_tag.post_id')->where('tag_id', '=', $tags_id)->paginate(9);
+        $categories = Category::all();
+        $tags = Tag::all();
+
+        return view('blog-list', ['posts' => $posts, 'categories' => $categories, 'tags' => $tags, 'nama_kategori' => $tag]);
     }
 }

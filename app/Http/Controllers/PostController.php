@@ -9,6 +9,7 @@ use App\Post;
 use App\Tag;
 use App\Category;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 use File;
 
@@ -62,7 +63,8 @@ class PostController extends Controller
             'content' => $request->content,
             'image' => $file_name.'.'.$request->file('image')->getClientOriginalExtension(),
             'category_id' => $request->category_id,
-            'user_id' => $request->user_id
+            'user_id' => $request->user_id,
+            'url' => $request->url
         ]);
         if ($request->tags_id) {
             $post->tags()->attach($request->tags_id);
@@ -79,8 +81,9 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Post $post)
+    public function show($url)
     {
+        $post = Post::where('url', $url)->first();
         $user = $post->user;
         $latestpost = Post::orderBy('created_at', 'desc')->take(5)->get();
         return view('single-blog', ['post' => $post, 'categories' => Category::all(), 'tags' => Tag::all(), 'user' => $user, 'latest' => $latestpost]);
@@ -106,7 +109,7 @@ class PostController extends Controller
      */
     public function update(UpadtePostValidation $request, Post $post)
     {
-        $data = $request->only(['title', 'description', 'content', 'category_id']);
+        $data = $request->only(['title', 'description', 'content', 'category_id', 'url']);
         $file_name = Str::random(16);
         if ($request->hasfile('image')) {
             File::delete('images/posts/'.$post->image);

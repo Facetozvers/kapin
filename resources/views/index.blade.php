@@ -124,60 +124,18 @@
 <div class="container section mt-5">
   <h1 class="section-title text-center">News & Event</h1>
   <div class="row justify-content-center">
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    @foreach($posts as $post)
+    <div class="col-md-4 mt-3">
+    <a class="blog-link" href="/blog/{{$post->url}}">
+        <div class="card blog-card">
+            <img class="card-img-top" src="/images/posts/{{$post->image}}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title" style="font-size:17px">{{$post->title}}</h5>
+            </div>
         </div>
-      </div>
+    </a>
     </div>
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
+    @endforeach
   </div>
 </div>
 @endsection

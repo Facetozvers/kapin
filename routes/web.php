@@ -25,6 +25,9 @@ Route::get('/smk/titl', 'PageController@titl');
 Route::get('/smk/tkr', 'PageController@tkr');
 Route::get('/smk/multimedia', 'PageController@multimedia');
 Route::get('/blog', 'PageController@blog');
+Route::get('/blog/{url}', 'PostController@show');
+Route::get('/blog/kategori/{kategori}', 'PageController@kategori');
+Route::get('/blog/tag/{tag}', 'PageController@tag');
 
 Auth::routes();
 
@@ -32,7 +35,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::get('/home', 'HomeController@index')->name('home');
     Route::resource('categories', 'CategoryController');
     Route::resource('tags', 'TagController');
-    Route::resource('posts', 'PostController');
+    Route::resource('posts', 'PostController')->except(['show']);
     Route::get('/trashed_posts', 'PostController@trashed')->name('posts.trashed');
     Route::get('/restore/{id}', 'PostController@restore')->name('posts.restore');
     Route::get('/users/{user}/profile', 'UserController@edit')->name('user.edit');

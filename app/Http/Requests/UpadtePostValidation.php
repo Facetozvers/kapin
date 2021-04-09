@@ -25,6 +25,7 @@ class UpadtePostValidation extends FormRequest
     {
         return [
             'title' => 'required|max:255',
+            'url' => 'required|max:50',
             'description' => 'required',
             'content' => 'required|min:10',
             'category_id' => 'required'
