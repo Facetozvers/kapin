@@ -1,5 +1,18 @@
 @extends('layouts.main')
-@section('title', 'SMP KAPIN')
+@section('title', 'SMP KAPIN | YPT KAPIN')
+@section('metatags')
+<!-- og meta tag -->
+<meta property="og:title" content="YPT KAPIN | SMP">
+<meta property="og:description" content="Selamat Datang di Website YPT KAPIN!">
+<meta property="og:image" content="/assets/logo.png">
+<meta property="og:url" content="https://kapin.or.id/smp">
+
+<!-- twitter meta tag -->
+<meta property="twitter:title" content="YPT KAPIN | SMP">
+<meta property="twitter:description" content="Selamat Datang di Website YPT KAPIN!">
+<meta property="twitter:image" content="/assets/logo.png">
+<meta property="twitter:url" content="http://kapin.or.id/smp">
+@endsection
 @section('content')
 
 

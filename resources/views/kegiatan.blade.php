@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Kegiatan')
+@section('title', 'Kegiatan | YPT KAPIN')
 @section('content')
 
 

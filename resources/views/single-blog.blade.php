@@ -1,5 +1,18 @@
 @extends('layouts.main')
 @section('title', $post->title.' | BLOG KAPIN')
+@section('metatags')
+<!-- og meta tag -->
+<meta property="og:title" content="{{$post->title}} | BLOG KAPIN">
+<meta property="og:description" content="{{$post->description}}">
+<meta property="og:image" content="/images/posts/{{$post->image}}">
+<meta property="og:url" content="https://kapin.or.id/blog/{{$post->url}}">
+
+<!-- twitter meta tag -->
+<meta property="twitter:title" content="YPT KAPIN | Beranda">
+<meta property="twitter:description" content="{{$post->description}}">
+<meta property="twitter:image" content="/images/posts/{{$post->image}}">
+<meta property="twitter:url" content="https://kapin.or.id/blog/{{$post->url}}">
+@endsection
 @section('content')
   <!-- Page Content -->
   <div class="container pt-5">
