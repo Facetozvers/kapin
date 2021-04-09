@@ -47,7 +47,7 @@
 <div class="container-fluid section tingkat-section mt-5">
   <h1 class="section-title text-center">Akademik</h1>
   <div class="row justify-content-center">
-    <div class="col-md-3">
+    <div class="col-md-3 col-4 p-1">
     <a href="/smp">
       <div class="card tingkat-card zoom">
         <img class="tingkat-img card-img" src="/assets/img/etc/pic-1.jpeg" alt="Bologna">
@@ -59,7 +59,7 @@
       </div>
     </a>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 col-4 p-1">
     <a href="/sma">
       <div class="card tingkat-card zoom">
         <img class="tingkat-img card-img" src="/assets/img/etc/pic-2.png" alt="Bologna">
@@ -71,7 +71,7 @@
       </div>
     </a>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 col-4 p-1">
     <a href="/smk">
       <div class="card tingkat-card zoom">
         <img class="tingkat-img card-img" src="/assets/img/etc/pic-3.jpeg" alt="Bologna">
@@ -107,25 +107,25 @@
     </div>
 
     <div class="row justify-content-center about-numbers">
-      <div class="col-md-3 col-12">
+      <div class="col-md-3 col-12 mt-4">
         <div class="diamond-shape">
-          <div class="item-count">50<br><span style="font-size:1vw">Tahun</span></div>
+          <div class="item-count">50<br><span class="item-count-desc">Tahun</span></div>
         </div>
         <div class="diamond-text">
           <p class="text-center">Pengalaman lebih dari 50 Tahun</p>
         </div>  
       </div>
-      <div class="col-md-3 col-12">
+      <div class="col-md-3 col-12 mt-4">
         <div class="diamond-shape">
-          <div class="item-count">8<br><span style="font-size:1vw">Ekskul</div>
+          <div class="item-count">8<br><span class="item-count-desc">Ekskul</div>
         </div>  
         <div class="diamond-text">
           <p class="text-center">8 Ekstrakulikuler</p>
         </div>
       </div>
-      <div class="col-md-3 col-12">
+      <div class="col-md-3 col-12 mt-4">
         <div class="diamond-shape">
-          <div class="item-count">5000+<br><span style="font-size:1vw">Siswa</div>
+          <div class="item-count">5000+<br><span class="item-count-desc">Siswa</div>
         </div>  
         <div class="diamond-text">
           <p class="text-center">5000+ Siswa telah kami bimbing</p>

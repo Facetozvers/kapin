@@ -102,7 +102,7 @@
         <div class="container">
             <div class="row py-4">
                 <div class="col-md-4">
-                    <div class="list-group">
+                    <div class="list-group" style="margin-bottom:20px">
                         @if (auth()->user()->isAdmin())
 
                             <a  class="list-group-item list-group-item-action {{ Request::is('users/index') ? 'active' : '' }}" href="{{route('users.index')}}">Users</a>

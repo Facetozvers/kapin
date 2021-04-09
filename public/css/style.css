@@ -225,6 +225,10 @@ body{
     width:14vh;
 }
 
+.item-count-desc{
+  font-size:1vw;
+}
+
 .container-shape {
   margin: auto;
   text-align: center; 
@@ -427,4 +431,184 @@ body{
 .blog-card img{
   height:200px;
   object-fit: cover;
+}
+
+.menu-navbar{
+  display:none;
+}
+
+.menu-navbar button{
+  background-color: white;
+  color:black;
+  border:1px solid rgb(180, 180, 180);
+  width:100%;
+}
+
+.navbar-modal .nav-link{
+  padding-left: 15px;
+}
+
+.navbar-modal a{
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-modal a:active{
+  background-color: #ff791f50;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-brand{
+    margin:auto;
+  }
+
+  .navbar img{
+    height:90px;
+    width:auto;
+    margin:auto;
+  }
+
+  .logo-text{
+    font-size:11px;
+  }
+
+  .logo-text .header{
+    font-size:30px;
+  }
+
+  .menu-navbar{
+    display:block;
+  }
+
+  .section-title{
+    font-size:24px;
+  }
+
+  .text-section p{
+    font-size:12px;
+  }
+
+  .tingkat-title{
+    font-size:20px;
+  }
+
+  .about-text{
+    font-size:11px;
+    line-height: 0.54cm;
+  }
+
+  .item-count{
+    font-size : 22px;
+  }
+
+  .item-count-desc{
+    font-size:18px;
+  }
+  .diamond-text p{
+    font-size:18px;
+  }
+
+  .about-img{
+    height:150px
+  }
+
+  .tingkat-card{
+    height:160px;
+  }
+
+  .hero-section-carousel img{
+    height:340px;
+  }
+
+  .footer-components{
+    width: 100%;
+  }
+
+  .post-title{
+    font-size:22px;
+  }
+
+  .post-author{
+    font-size:14px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+  .navbar{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-brand{
+    margin:auto;
+  }
+
+  .navbar img{
+    height:90px;
+    width:auto;
+    margin:auto;
+  }
+
+  .logo-text{
+    font-size:11px;
+  }
+
+  .logo-text .header{
+    font-size:30px;
+  }
+
+  .menu-navbar{
+    display:block;
+  }
+
+  .section-title{
+    font-size:24px;
+  }
+
+  .text-section p{
+    font-size:12px;
+  }
+
+  .tingkat-title{
+    font-size:20px;
+  }
+
+  .about-text{
+    font-size:11px;
+    line-height: 0.54cm;
+  }
+
+  .item-count{
+    font-size : 22px;
+  }
+
+  .item-count-desc{
+    font-size:18px;
+  }
+  .diamond-text p{
+    font-size:18px;
+  }
+
+  .about-img{
+    height:150px
+  }
+
+  .tingkat-card{
+    height:160px;
+  }
+
+  .hero-section-carousel img{
+    height:340px;
+  }
+
+  .footer-components{
+    width: 100%;
+  }
 }

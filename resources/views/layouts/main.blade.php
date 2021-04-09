@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        @yield('metatags');
+        @yield('metatags')
 
         <!-- favicon -->
         <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
@@ -30,25 +30,21 @@
         <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
         <title>@yield('title')</title>
-        <link rel="stylesheet" href="/css/style.css?v=2.2">
+        <link rel="stylesheet" href="/css/style.css?v=3">
         @yield('csslink')
     </head>
     <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <a class="navbar-brand" href="/">
-            <div class="row">
-                <div class="col-md-5">
+            <div class="row justify-content-center">
+                <div class="col-md-5 col-4">
                     <img src="/assets/logo.png" height="150" width="150" alt="">
                 </div>
-                <div class="col-md-5 mt-1">
+                <div class="col-md-5 mt-1 col-8">
                     <p class="logo-text" style="color:black"><span class="header">KAPIN</span><br>YAYASAN PENDIDIKAN TEKNOLOGI<br>KADER PEMBANGUNAN INDONESIA</p>
                 </div>
             </div>
-            
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
         <div class="collapse navbar-collapse flex-column" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
@@ -81,6 +77,52 @@
             </ul>
         </div>
     </nav>
+    <nav class="navbar navbar-expand-sm bg-light menu-navbar">
+        <button type="button" class="" data-toggle="modal" data-target="#exampleModal">
+            <i class="fa fa-bars"> Menu</i>
+        </button>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Menu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="navbar-nav ml-auto navbar-modal">
+                        <li class="nav-item {{(request()->is('/')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/">Beranda</a>
+                        </li>
+                        <li class="nav-item {{(request()->is('smp*')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/smp">SMP</a>
+                        </li>
+                        <li class="nav-item {{(request()->is('sma*')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/sma">SMA</i></a>
+                        </li>
+                        <li class="nav-item {{(request()->is('smk*')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/smk">SMK</i></a>
+                        </li>
+                        <li class="nav-item {{(request()->is('yayasan*')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/yayasan">Yayasan</a>
+                        </li>
+                        <li class="nav-item {{(request()->is('kegiatan*')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/kegiatan">Kegiatan</a>
+                        </li>
+                        <li class="nav-item {{(request()->is('blog*')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/blog">Blog</a>
+                        </li>
+                        <li class="nav-item {{(request()->is('contact')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     @yield('content')
     <footer class="container-fluid section mt-5" style="background:#ff781f; margin-bottom:0;padding-top:30px;padding-bottom:30px">
         <div class="footer-content">

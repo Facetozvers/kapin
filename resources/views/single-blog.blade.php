@@ -15,7 +15,7 @@
 @endsection
 @section('content')
   <!-- Page Content -->
-  <div class="container pt-5">
+  <div class="container pt-3">
 
     <div class="row">
 
@@ -23,10 +23,10 @@
       <div class="col-lg-8">
 
         <!-- Title -->
-        <h1 class="mt-4">{{$post->title}}</h1>
+        <h1 class="mt-4 post-title">{{$post->title}}</h1>
 
         <!-- Author -->
-        <p class="lead">
+        <p class="lead post-author">
           by {{$user->name}}
         </p>
 
@@ -60,7 +60,7 @@
               <div class="col-lg-6">
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a class="blog-link" href="#">{{$category->name}}</a>
+                    <a class="blog-link" href="/blog/kategori/{{$category->name}}">{{$category->name}}</a>
                   </li>
                 </ul>
               </div>

@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'YPT KAPIN | Hubungi Kami')
+@section('title', 'Hubungi Kami | YPT KAPIN')
 @section('metatags')
 <!-- og meta tag -->
 <meta property="og:title" content="YPT KAPIN | SMA">
