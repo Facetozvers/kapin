@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
         <title>@yield('title')</title>
-        <link rel="stylesheet" href="/css/style.css?v=3">
+        <link rel="stylesheet" href="/css/style.css?v=3.1">
         @yield('csslink')
     </head>
     <body>
@@ -77,7 +77,7 @@
             </ul>
         </div>
     </nav>
-    <nav class="navbar navbar-expand-sm bg-light menu-navbar">
+    <nav class="navbar navbar-expand-sm menu-navbar">
         <button type="button" class="" data-toggle="modal" data-target="#exampleModal">
             <i class="fa fa-bars"> Menu</i>
         </button>
