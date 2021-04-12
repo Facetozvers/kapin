@@ -459,6 +459,7 @@ body{
 }
 
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .navbar{
@@ -490,6 +491,11 @@ body{
 
   .section-title{
     font-size:24px;
+  }
+
+  .img-desc{
+    font-size: 12px;
+    line-height: 0.5cm;
   }
 
   .text-section p{
@@ -539,6 +545,19 @@ body{
   .post-author{
     font-size:14px;
   }
+
+  .kompetensi-text{
+    font-size: 18px;
+  }
+
+  .pengurus-name{
+    font-size: 18px;
+  }
+
+  .pengurus-tingkat{
+    font-size: 14px;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -572,6 +591,11 @@ body{
 
   .section-title{
     font-size:24px;
+  }
+
+  .img-desc{
+    font-size: 12px;
+    line-height: 0.5cm;
   }
 
   .text-section p{
@@ -612,5 +636,25 @@ body{
 
   .footer-components{
     width: 100%;
+  }
+
+  .post-title{
+    font-size:22px;
+  }
+
+  .post-author{
+    font-size:14px;
+  }
+  
+  .kompetensi-text{
+    font-size: 18px;
+  }
+
+  .pengurus-name{
+    font-size: 18px;
+  }
+
+  .pengurus-tingkat{
+    font-size: 14px;
   }
 }

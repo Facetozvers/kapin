@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
         <title>@yield('title')</title>
-        <link rel="stylesheet" href="/css/style.css?v=3.1">
+        <link rel="stylesheet" href="/css/style.css?v=3.2">
         @yield('csslink')
     </head>
     <body>
@@ -60,8 +60,8 @@
                 <li class="nav-item {{(request()->is('blog*')) ? 'active' : '' }}">
                     <a class="nav-link" href="/blog">Blog</a>
                 </li>
-                <li class="nav-item {{(request()->is('contact')) ? 'active' : '' }}">
-                    <a class="nav-link" href="/contact">Contact</a>
+                <li class="nav-item {{(request()->is('kontak')) ? 'active' : '' }}">
+                    <a class="nav-link" href="/kontak">Kontak</a>
                 </li>
             </ul>
             <ul class="navbar-nav flex-row mb-2 ml-auto">

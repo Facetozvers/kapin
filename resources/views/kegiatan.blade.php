@@ -15,15 +15,15 @@
     <div class="row justify-content-center">
         <div class="col-md-4">
             <img class="img-kegiatan rounded mx-auto d-block" src="/assets/img/kegiatan/1.jpeg" style="" alt="">
-            <p class="img-desc" style="font-size:0.82vw; line-height: 0.5cm">Menggali minat dan bakat anak lewat berbagai kegiatan menjadi salah satu upaya YPT KAPIN membangun kemampuan yang dimiliki siswanya. Siwa dapat memilih berbagai kegiatan ekstrakulikuler yang bermanfaat dan sesuai dengan minat juga bakatnya, seperti pramuka, tari, taekwondo, futsal dan masih banyak lagi.</p>
+            <p class="img-desc">Menggali minat dan bakat anak lewat berbagai kegiatan menjadi salah satu upaya YPT KAPIN membangun kemampuan yang dimiliki siswanya. Siwa dapat memilih berbagai kegiatan ekstrakulikuler yang bermanfaat dan sesuai dengan minat juga bakatnya, seperti pramuka, tari, taekwondo, futsal dan masih banyak lagi.</p>
         </div>
         <div class="col-md-4">
             <img class="img-kegiatan rounded mx-auto d-block " src="/assets/img/kegiatan/2.jpeg" style="" alt="">
-            <p class="img-desc" style="font-size:0.82vw; line-height: 0.5cm">Hobi dan minat siswa harus selalu didukung penuh dan dikembangkan. Seperti yang dilakukan YPT KAPIN dalam mendukung bakat dan minat siswa dalam seni tari, memberikan pelatihan dan mengikutsertakannya dalam berbagai kompetisi.  Lewat berbagai pengalaman berkompetisi, siswa akan mendapatkan banyak  pembelajaran dan pengalaman yang membangun karakter.</p>
+            <p class="img-desc">Hobi dan minat siswa harus selalu didukung penuh dan dikembangkan. Seperti yang dilakukan YPT KAPIN dalam mendukung bakat dan minat siswa dalam seni tari, memberikan pelatihan dan mengikutsertakannya dalam berbagai kompetisi.  Lewat berbagai pengalaman berkompetisi, siswa akan mendapatkan banyak  pembelajaran dan pengalaman yang membangun karakter.</p>
         </div>
         <div class="col-md-4">
             <img class="img-kegiatan rounded mx-auto d-block " src="/assets/img/kegiatan/3.jpeg" style="" alt="">
-            <p class="img-desc" style="font-size:0.82vw; line-height: 0.5cm">Membangun semangat berkompetisi siswa sangatlah penting. Lewat bakat dan minat siswa terhadap cabang olahraga Karate, YPT KAPIN memberi dukungan dengan mengikutsertakan siswa dalam berbagai kompetisi dibidangnya. Membangun bakat yang terpendam menjadi prestasi yang gemilang. </p>
+            <p class="img-desc">Membangun semangat berkompetisi siswa sangatlah penting. Lewat bakat dan minat siswa terhadap cabang olahraga Karate, YPT KAPIN memberi dukungan dengan mengikutsertakan siswa dalam berbagai kompetisi dibidangnya. Membangun bakat yang terpendam menjadi prestasi yang gemilang. </p>
         </div>
     </div>
 </div>
@@ -34,15 +34,15 @@
     <div class="row justify-content-center">
         <div class="col-md-4">
             <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/kegiatan/4.jpeg" style="" alt="">
-            <p class="img-desc" style="font-size:0.82vw; line-height: 0.5cm">Memunculkan kepedulian siswa terhadap lingkungan sekitarnya, dilakukan YPT KAPIN dengan membiasakan siswa berbagi kepada orang-orang yang lebih membutuhkan lewat Baksos.</p>
+            <p class="img-desc">Memunculkan kepedulian siswa terhadap lingkungan sekitarnya, dilakukan YPT KAPIN dengan membiasakan siswa berbagi kepada orang-orang yang lebih membutuhkan lewat Baksos.</p>
         </div>
         <div class="col-md-4">
             <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/kegiatan/5.jpeg" style="" alt="">
-            <p class="img-desc" style="font-size:0.82vw; line-height: 0.5cm">Momen Hari Kemerdekaan menjadi hari penting yang diperingati oleh hampir seluruh rakyat Indonesia. YPT KAPIN selalu menyiapkan momen ini dengan baik demi membangkitkan semangat Nasionalisme siswa lewat hari-hari besar Nasional, salah satunya Hari Kemerdekaan Indonesia.</p>
+            <p class="img-desc">Momen Hari Kemerdekaan menjadi hari penting yang diperingati oleh hampir seluruh rakyat Indonesia. YPT KAPIN selalu menyiapkan momen ini dengan baik demi membangkitkan semangat Nasionalisme siswa lewat hari-hari besar Nasional, salah satunya Hari Kemerdekaan Indonesia.</p>
         </div>
         <div class="col-md-4">
             <img class="img-kegiatan rounded mx-auto d-block w-100" src="/assets/img/kegiatan/6.jpeg" style="" alt="">
-            <p class="img-desc" style="font-size:0.82vw; line-height: 0.5cm">Jika bisa menyalurkan bakat sekaligus melestarikan budaya Indonesia kenapa tidak?
+            <p class="img-desc">Jika bisa menyalurkan bakat sekaligus melestarikan budaya Indonesia kenapa tidak?
 YPT KAPIN selalu mendukung minat dan bakat positif siswa, juga melatihnya untuk berani tampil di depan teman-teman maupun dalam kompetisi.</p>
         </div>
     </div>
