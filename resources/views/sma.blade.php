@@ -116,32 +116,32 @@
   <div class="row justify-content-center">
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/sma/foto-1.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/sma/foto-2.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/sma/foto-3.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/sma/foto-4.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/sma/foto-5.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 col-6 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/sma/foto-6.jpeg" alt="Card image cap">
       </div>
     </div>
   </div>
