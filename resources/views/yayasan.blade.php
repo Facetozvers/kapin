@@ -9,6 +9,23 @@
   </div>
 </div>
 <div class="container-fluid section text-section" style="">
+    <h1 class="section-title section-title-orange pt-3">SAMBUTAN KETUA YPT KAPIN</h1>
+    <blockquote class="blockquote sambutan">
+        <p class="mb-0"><strong>Bismillahirrahmaanirrahim</strong></p>
+        <p class="mb-5"><strong>Assalamu’alaikum warohmatullahi wabarokatuh.</strong></p>
+        <p class="mb-3">Mari kita ucap puji syukur yang tak terhingga kita panjatkan pada Allah SWT, yang telah memberikan kesehatan dan keselamatan serta petunjuk dan perlindungan-Nya sehingga kita dapat menjalankan aktivitas sehari-hari. Aamiin.</p>
+        <p class="mb-3">Tak lupa kita sampaikan salam dan shalawat kepada junjungan kita Nabi besar Muhammad SAW beserta keluarga, sahabat dan kita semua selaku umatnya yang selalu setia mengamalkan ajaran-ajaran agama Islam yang sampai saat ini kita rasakan mafaatnya.</p>
+        <p class="mb-3">Yayasan Pendidikan Teknologi KAPIN berdedikasi penuh dalam bidang pendidikan untuk memberikan nilai dan manfaat dengan mencerdaskan masyarakat. Untuk itu YPT KAPIN berkomitmen dengan program-program andalannya guna melahirkan generasi muda yang cerah dan mencerahkan. Segenap pengurus yayasan dan tenaga pengajar YPT KAPIN bersinergi menumbuhkan karakter terpuji yang dilandasi pada ajaran agama, mandiri, saling menghargai, dan berjiwa sosial.</p>
+        <p class="mb-3">Tantangan dari pihak internal dan eksternal kami jadikan motivasi dalam mewujudkan cita-cita, visi, misi, dan program yayasan kedepan. </p>
+        <p class="mb-3">Harapan kami, YPT KAPIN dapat tumbuh menjadi yayasan yang dapat memberikan kontribusi positif terhadap lingkungan dan masyarakat, terutama dalam memberikan pendidikan yang berkelanjutan bagi anak-anak Indonesia.</p>
+        <p class="mb-3">Selain itu, kerjasama dengan seluruh pihak terkait di bidang sosial, pendidikan dan keagamaan baik pemerintah, lembaga pendidikan sejenis, lembaga-lembaga professional serta seluruh pihak lainnya yang secara langsung atau tidak langsung menjadi bagian penting untuk meningkatkan kualitas dan mutu yayasan dimasa yang akan datang.</p>
+        <p class="mb-5">Akhirnya kami berharap, semoga tujuan mulia YPT KAPIN dapat tercapai dengan baik.</p>
+        <p class="mb-3"><strong>Wassalamu’alaikum warohmatullahi wabarokatuh.</strong></p>
+        <footer class="blockquote-footer sambutan-footer">Ketua Yayasan YPT KAPIN, Mariyana Murchtar, S.H.</footer>
+    </blockquote>
+</div>
+
+<div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3">TENTANG KAPIN</h1>
     <p class="mb-5 pt-2">Yayasan Pendidikan Kader Pembangunan Indonesia (YP KAPIN) didirikan sejak tahun 1966 di Jakarta, namun sejak tahun 2008 dilakukan perubahan menjadi Yayasan Pendidikan Teknologi Kader Pembangunan Indonesia (YPT KAPIN). Nama tersebut diambil dari nama sebuah perusahaan PT Kapal Indonesia yang berada di daerah Tanjung Priuk Jakarta Utara, nama ini diambil berdasarkan dukungan dan persetujuan yang diberikan oleh pimpinan PT Kapal Indonesia. <br><br>
     YPT KAPIN bergerak dibidang pendidikan umum dan pendidikan teknologi. Bermula dari Sekolah Teknik Menengah (STM) yang berlokasi di Jln. Gatot Subroto, Pancoran, Jakarta Selatan. Tahun 1980 YPT KAPIN mendirikan sekolah untuk pendidikan umum tingkat SMP dan SMA di wilayah kalimalang, Pondok Kelapa, Jakarta Timur. Hingga saat ini YPT KAPIN telah berkiprah di dunia pendidikan selama 54 tahun menaungi Sekolah lanjutan tingkat SMP, SMA, dan SMK dan telah meluluskan ribuan siswa.
@@ -17,11 +34,18 @@
 
 <div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
-    <h5 class="mt-4" style="color:#ff781f">VISI</h5>
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> VISI</h5>
     <p class="mb-5">Yayasan Pendidikan KAPIN bertujuan menghasilkan lulusan yang taqwa, cerdas, terampil, kreatif, mandiri, dan disiplin untuk mengarah pada ISO 9001.</p>
     
-    <h5 class="mt-5" style="color:#ff781f">MISI</h5>
-    <p class="mb-5">1. Menyelenggarakan kegiatan-kegiatan pendidikan dalam rangka peningkatan IMTAQ bagi Siswa, Guru, dan Karyawan.<br>2. Meningkatkan pelaksanaan kegiatan Belajar Mengajar dengan melengkapi prasarana dan sarana serta kualitas SDM.<br>3. Menyelenggarakan kegiatan-kegiatan pendidikan yang menunjang keterampilan serta seangat wira usaha agar lulusan dapat mandiri dan kreatif.<br>4. Menyelenggarakan kegiatan-kegiatan baik kurikuler maupun ekstrakulikuler dalam rangka membentuk sikap disiplin.</p>
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> MISI</h5>
+    <p class="mb-0">
+    <ol class="text-list">
+      <li>Menyelenggarakan kegiatan-kegiatan pendidikan dalam rangka peningkatan IMTAQ bagi Siswa, Guru, dan Karyawan.</li>
+      <li>Meningkatkan pelaksanaan kegiatan Belajar Mengajar dengan melengkapi prasarana dan sarana serta kualitas SDM.</li>
+      <li>Menyelenggarakan kegiatan-kegiatan pendidikan yang menunjang keterampilan serta seangat wira usaha agar lulusan dapat mandiri dan kreatif.</li>
+      <li>Menyelenggarakan kegiatan-kegiatan baik kurikuler maupun ekstrakulikuler dalam rangka membentuk sikap disiplin.</li>
+    </ol>
+    <p class="mt-5">
 </div>
 
 <div class="container-fluid section" style="background: #ff781f">

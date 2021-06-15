@@ -64,7 +64,7 @@ class PageController extends Controller
 
     public function kategori($kategori){
         $categories_id = Category::where('name', $kategori)->first()->id;
-        $posts = Post::where('category_id', $categories_id)->paginate(6);
+        $posts = Post::where('category_id', $categories_id)->where('deleted_at', NULL)->paginate(6);
         $categories = Category::all();
         $tags = Tag::all();
 
@@ -73,7 +73,7 @@ class PageController extends Controller
 
     public function tag($tag){
         $tags_id = Tag::where('name', $tag)->first()->id;
-        $posts = DB::table('post_tag')->join('posts', 'posts.id', '=', 'post_tag.post_id')->where('tag_id', '=', $tags_id)->paginate(9);
+        $posts = DB::table('post_tag')->join('posts', 'posts.id', '=', 'post_tag.post_id')->where('tag_id', '=', $tags_id)->where('deleted_at', NULL)->paginate(9);
         $categories = Category::all();
         $tags = Tag::all();
 

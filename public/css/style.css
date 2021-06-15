@@ -269,6 +269,13 @@ body{
   padding-bottom: 4vh;
 }
 
+.text-list li{
+  font-family: poppins;
+  font-weight: 200;
+  font-size: 20px;
+  padding-left: 7px;
+}
+
 
 .kegiatan-button{
   border:1px black solid;
@@ -458,6 +465,19 @@ body{
   background-color: #ff791f50;
 }
 
+.sambutan{
+  padding: 50px 100px; 
+  background: #ff791f57;
+  border: 1px solid #ff781f;
+  border-radius: 10px;
+}
+
+.sambutan-footer{
+  font-weight: 600;
+  font-size: 22px;
+  color: #FF781F;
+}
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -500,6 +520,11 @@ body{
 
   .text-section p{
     font-size:12px;
+  }
+
+  .text-list li{
+    font-size:12px;
+    line-height: 0.7cm;
   }
 
   .tingkat-title{
@@ -558,6 +583,15 @@ body{
     font-size: 14px;
   }
 
+  .sambutan{
+    padding: 5px 20px;
+    font-size: 12px
+  }
+  
+  .sambutan-footer{
+    font-size: 12px;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -600,6 +634,11 @@ body{
 
   .text-section p{
     font-size:12px;
+  }
+
+  .text-list li{
+    font-size:12px;
+    line-height: 0.7cm;
   }
 
   .tingkat-title{
@@ -657,4 +696,126 @@ body{
   .pengurus-tingkat{
     font-size: 14px;
   }
+
+  .sambutan{
+    padding: 5px 20px;
+    font-size: 12px
+  }
+  
+  .sambutan-footer{
+    font-size: 12px;
+  }
 }
+
+/* Tablets */
+@media only screen and (max-width: 991px) { 
+  .navbar{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-brand{
+    margin:auto;
+  }
+
+  .navbar img{
+    height:90px;
+    width:auto;
+    margin:auto;
+  }
+
+  .logo-text{
+    font-size:11px;
+  }
+
+  .logo-text .header{
+    font-size:30px;
+  }
+
+  .menu-navbar{
+    display:block;
+  }
+
+  .section-title{
+    font-size:24px;
+  }
+
+  .img-desc{
+    font-size: 12px;
+    line-height: 0.5cm;
+  }
+
+  .text-section p{
+    font-size:12px;
+  }
+
+  .text-list li{
+    font-size:12px;
+    line-height: 0.7cm;
+  }
+
+  .tingkat-title{
+    font-size:20px;
+  }
+
+  .about-text{
+    font-size:11px;
+    line-height: 0.54cm;
+  }
+
+  .item-count{
+    font-size : 22px;
+  }
+
+  .item-count-desc{
+    font-size:18px;
+  }
+  .diamond-text p{
+    font-size:18px;
+  }
+
+  .about-img{
+    height:150px
+  }
+
+  .tingkat-card{
+    height:160px;
+  }
+
+  .hero-section-carousel img{
+    height:340px;
+  }
+
+  .footer-components{
+    width: 100%;
+  }
+
+  .post-title{
+    font-size:22px;
+  }
+
+  .post-author{
+    font-size:14px;
+  }
+  
+  .kompetensi-text{
+    font-size: 18px;
+  }
+
+  .pengurus-name{
+    font-size: 18px;
+  }
+
+  .pengurus-tingkat{
+    font-size: 14px;
+  }
+
+  .sambutan{
+    padding: 20px 30px;
+    font-size: 12px
+  }
+  
+  .sambutan-footer{
+    font-size: 12px;
+  }
+ }

@@ -47,19 +47,19 @@
 
 <div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
-    <h5 class="mt-5" style="color:#ff781f">VISI</h5>
-    <p class="mb-5">Menjadikan SMP KAPIN sebagai Lembaga Pendidikan yang bermutu dan membentuk peserta Didik Memiliki pengetahuan dan berlandaskan Iman dan Taqwa serta menguasai Teknologi sebagai SDM yang berkualitas</p>
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> VISI</h5>
+    <p class="mb-5">Menjadikan SMP KAPIN sebagai Lembaga Pendidikan yang bermutu dan membentuk peserta Didik Memiliki pengetahuan dan berlandaskan Iman dan Taqwa serta menguasai Taknologi sebagai SDM yang berkualitas.</p>
     
-    <h5 class="mt-5" style="color:#ff781f">MISI</h5>
-    <p class="mb-5">
-    1.	Meningkatkan kegiatan pembelajaran yang berkualitas
-    <br>2.	Meningkatkan sumber daya tenaga kependidikan dan peserta didik dalam menguasai IPTEK dan IMTAQ
-    <br>3.	Mempersiapkan peserta didik untuk melanjutkan pendidikan ke jenjang yang lebih tinggi.
-    <br>4.	Menciptakan kepedulian peserta didik terhadap lingkungan dan budaya lokal.
-    <br>5.	Mempersiapkan peserta didik sebagai individu yang baik dan mandiri di tengah masyarakat.
-
-    </p>
-    <p class="mb-5">
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> MISI</h5>
+    <p class="mb-0">
+    <ol class="text-list">
+      <li>Meningkatkan kegiatan pembelajaran yang berkualitas.</li>
+      <li>Meningkatkan sumber daya tenaga kependidikan dan peserta didik dalam menguasai IPTEK dan IMTAQ.</li>
+      <li>Mempersiapkan peserta didik untuk melanjutkan pendidikan ke jenjang yang lebih tinggi.</li>
+      <li>Menciptakan kepedulian peserta didik terhadap lingkungan dan budaya lokal.</li>
+      <li>Mempersiapkan peserta didik sebagai individu yang baik dan mandiri di tengah masyarakat.</li>
+    </ol>
+    <p class="mt-5">
     <strong># PERCAYA DIRI MERAIH PRESTASI #</strong>
     </p>
 </div>
@@ -69,6 +69,11 @@
     <h1 class="section-title section-title-orange pt-3 pb-4">KURIKULUM</h1>
     <h5 class="pt-3 pb-4 text-center">STRUKTUR KURIKULUM SMP KAPIN JAKARTA (Kurikulum 2013)</h5>
     <img class="img-fluid d-block mx-auto" src="/assets/img/smp/kurikulum-smp.png" alt="">
+</div>
+
+<div class="container-fluid section text-section">
+  <h1 class="section-title section-title-orange pt-3 pb-4">PROFIL PENDIDIK</h1>
+  @include('pendidik_smp')
 </div>
 
 <div class="container-fluid section text-section" style="">
