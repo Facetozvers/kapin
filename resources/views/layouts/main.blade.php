@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
         <title>@yield('title')</title>
-        <link rel="stylesheet" href="/css/style.css?v=3.2">
+        <link rel="stylesheet" href="/css/style.css?v=3.3">
         @yield('csslink')
     </head>
     <body>
