@@ -122,32 +122,32 @@
 <div class="container-fluid section text-section foto-section">
   <h1 class="section-title section-title-orange pt-3 pb-5">FOTO</h1>
   <div class="row justify-content-center">
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smp/foto-1.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smp/foto-2.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smp/foto-3.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smp/foto-4.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smp/foto-5.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smp/foto-6.jpeg" alt="Card image cap">
       </div>

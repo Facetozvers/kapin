@@ -7,7 +7,7 @@
   <div class="row justify-content-center" style="padding-top:2vh">
     <div class="col-md-12 p-0">
         <div class="card text-white">
-        <img class="card-img" src="/assets/img/smp/head-1.jpeg" alt="Card image" style="padding:0">
+        <img class="card-img" src="/assets/img/smk/tkr/head.jpeg" alt="Card image" style="padding:0">
         <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
             <h5 class="card-title kompetensi-head-text">TEKNIK KENDARAAN<br>RINGAN</h5>
         </div>
@@ -41,38 +41,26 @@
   </div>
 </div>
 
-<div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3">TENTANG TKR</h1>
-    <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-</div>
+<div class="container-fluid section text-section">
+  <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
+  <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> VISI</h5>
+  <p class="mb-5">Menyiapkan lulusan yang mampu menjadi Tenaga Teknisi Otomotif  untuk dapat bekerja pada lembaga tertentu ataupun pada DU/DI sesuai dengan tingkat keahliannya serta memiliki imtaq dan mengikuti kemajuan iptek</p>
+  
+  <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> MISI</h5>
+  <ol class="text-list">
+    <li>Menciptakan Tenaga Teknisi Otomotif yang berakhlak dan berkepribadian mulia</li>
+    <li>Menciptakan Tenaga Teknisi Otomotif yang inovatif, kreatif dan bertanggung jawab</li>
+    <li>Menciptakan Tenaga Teknisi Otomotif yang senantiasa dapat mencermati mengikuti perkembangan IT</li>
+  </ol>
 
-
-<div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3 pb-4">KURIKULUM</h1>
-    <h5 class="pt-3 pb-4 text-center">STRUKTUR KURIKULUM TKR SMK KAPIN JAKARTA (Kurikulum 2013)</h5>
-    <img class="img-fluid d-block mx-auto" src="/assets/img/sma/kurikulum-sma.png" alt="">
-</div>
-
-<div class="container-fluid section text-section" style="">
-    <h5 class=" mb-4" style="color:#ff781f">PROSPEK KERJA</h5>
-    <div class="row">
-        <div class="col-md-6">
-        <p>1.	Lorem ipsum</p>
-        <p>2.	HODOR IPSUM</p>
-        <p>3.	TRUMP IPSUM</p>
-        <p>4.	HIPSTER IPSUM</p>
-        <p>5.	ZOMBIE IPSUM</p>
-        <p>6.	BACON IPSUM</p>
-        </div>
-        <div class="col-md-6">
-        <p>7.	Lorem ipsum</p>
-        <p>8.	HODOR IPSUM</p>
-        <p>9.	TRUMP IPSUM</p>
-        <p>10.	HIPSTER IPSUM</p>
-        <p>11.	ZOMBIE IPSUM</p>
-        <p>12.	BACON IPSUM</p>
-        </div>
-    </div>
+  <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> TUJUAN</h5>
+  <ol class="text-list">
+    <li>Meningkatkan keimanan dan ketaqwaan peserta didik</li>
+    <li>Mendidik peserta didik agar menjadi warga negara Indonesia yang bertanggung jawab.</li>
+    <li>Mendidik peserta didik agar dapat menerapkan hidup sehat, memiliki wawasan pengetahuan dan seni.</li>
+    <li>Mendidik peserta didik dengan keahlian teknis bidang Otomotif baik analog  maupun digital</li>
+    <li>Mendidik peserta didik dengan pengetahuan peralatan Otomotif, keahlian mendiagnosis dan merakit serta memperbaiki peralatan Otomotif secara mandiri</li>
+  </ol>
 </div>
 
 <div class="container-fluid section text-section" style="">
@@ -121,34 +109,34 @@
 <div class="container-fluid section text-section foto-section">
   <h1 class="section-title section-title-orange pt-3 pb-5">FOTO</h1>
   <div class="row justify-content-center">
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/tkr/foto-1.jpeg" alt="Card image cap" style="height:250px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/tkr/foto-2.jpeg" alt="Card image cap" style="height:250px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/tkr/foto-3.jpeg" alt="Card image cap" style="height:250px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tkr/foto-4.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tkr/foto-5.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tkr/foto-6.jpeg" alt="Card image cap">
       </div>
     </div>
   </div>

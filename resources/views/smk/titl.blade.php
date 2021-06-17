@@ -41,38 +41,26 @@
   </div>
 </div>
 
-<div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3">TENTANG TITL</h1>
-    <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+<div class="container-fluid section text-section">
+    <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> VISI</h5>
+    <p class="mb-5">Terciptanya sumber daya manusia yang berkualitas berorientasi pada perkembangan sains dan teknologi berlandaskan budi pekerti, disiplin yang tinggi dan beriman kepada Tuhan Yang Maha Esa.</p>
+    
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> MISI</h5>
+    <ol class="text-list">
+      <li>Menghasilkan sumber daya yang berkualitas berorientasi pada perkembangan sains dan teknologi yang beriman kepada Tuhan Yang Maha Esa.</li>
+      <li>Menghasilkan tenaga kerja professional untuk memenuhi kebutuhan industri khususnya Tenaga kerja kelistrikan</li>
+      <li>Mendidik peserta didik dengan keahlian dan ketrampilan dalam Program Keahlian Teknik Instalasi Tenaga Listrik  (TITL), agar dapat bekerja baik secara mandiri ( Instalatir) atau mengisi lowongan pekerjaan yang ada didunia usaha dan dunia industri sebagai tenaga kerja tingkat menengah</li>
+      <li>Mendidik peserta didik agar mampu memilih karir, berkompetisi dan mengembangkan sikap professional dalam Program Keahlian Teknik Instalasi Tenaga Listrik  (TITL)</li>
+      <li>Membekali peserta didik dengan ilmu pengetahuan dan ketrampilan sebagai bekal bagi yang berminat untuk melanjutkan Pendidikan</li>
+    </ol>
 </div>
 
 
 <div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3 pb-4">KURIKULUM</h1>
-    <h5 class="pt-3 pb-4 text-center">STRUKTUR KURIKULUM TITL SMK KAPIN JAKARTA (Kurikulum 2013)</h5>
-    <img class="img-fluid d-block mx-auto" src="/assets/img/sma/kurikulum-sma.png" alt="">
-</div>
-
-<div class="container-fluid section text-section" style="">
-    <h5 class=" mb-4" style="color:#ff781f">PROSPEK KERJA</h5>
-    <div class="row">
-        <div class="col-md-6">
-        <p>1.	Lorem ipsum</p>
-        <p>2.	HODOR IPSUM</p>
-        <p>3.	TRUMP IPSUM</p>
-        <p>4.	HIPSTER IPSUM</p>
-        <p>5.	ZOMBIE IPSUM</p>
-        <p>6.	BACON IPSUM</p>
-        </div>
-        <div class="col-md-6">
-        <p>7.	Lorem ipsum</p>
-        <p>8.	HODOR IPSUM</p>
-        <p>9.	TRUMP IPSUM</p>
-        <p>10.	HIPSTER IPSUM</p>
-        <p>11.	ZOMBIE IPSUM</p>
-        <p>12.	BACON IPSUM</p>
-        </div>
-    </div>
+    <h1 class="section-title section-title-orange pt-3 pb-4">ORGANISASI</h1>
+    <h5 class="pt-3 pb-4 text-center">STRUKTUR ORGANISASI BENGKEL JURUSAN TEKNIK INSTALASI TENAGA LISTRIK (TITL)</h5>
+    <img class="img-fluid d-block mx-auto" src="/assets/img/smk/titl/struktur.jpg" alt="">
 </div>
 
 <div class="container-fluid section text-section" style="">
@@ -121,34 +109,34 @@
 <div class="container-fluid section text-section foto-section">
   <h1 class="section-title section-title-orange pt-3 pb-5">FOTO</h1>
   <div class="row justify-content-center">
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/titl/foto-1.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/titl/foto-2.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/titl/foto-3.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/titl/foto-4.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/titl/foto-5.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="/assets/img/smk/titl/foto-6.jpeg" alt="Card image cap" style="height:200px">
+        <img class="card-img-top" src="/assets/img/smk/titl/foto-6.jpg" alt="Card image cap" style="height:200px">
       </div>
     </div>
   </div>

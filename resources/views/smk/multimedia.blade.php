@@ -41,38 +41,57 @@
   </div>
 </div>
 
-<div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3">TENTANG MULTIMEDIA</h1>
-    <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+<div class="container-fluid section text-section">
+    <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> VISI</h5>
+    <p class="mb-5">Meningkatkan kualitas pendidikan dan keterampilan guna menghasilkan tamatan yang memiliki kompetensi dan daya saing yang tinggi sebagai persyaratan memasuki lapangan pekerjaan dibidang informasi, komunikasi, dan teknologi multimedia.</p>
+    
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> MISI</h5>
+    <ol class="text-list">
+      <li>Bersikap professional dalam melakukan segala tindakan dan perbuatan pada keimanan dan ketaqwaan pada Allah SWT</li>
+      <li>Membangun kemitraan yang kokoh dengan pemerintah daerah, masyarakat, institusi pasangan dan dunia usaha industry.</li>
+      <li>Melakukan Inovasi dalam bidang ilmu pengetahuan dan teknologi</li>
+      <li>Memberikan bekal pengetahuan dan keterampilan  kepala seluruh warga sekolah agar kompeten dibidang ICT</li>
+    </ol>
+
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> TUJUAN KOMPETENSI KEAHLIAN TEKNIK KOMPUTER DAN JARINGAN</h5>
+    <p class="mb-1">Kompetensi Keahlian Multimedia pada SMK KAPIN Jakarta bertujuan untuk :</p>
+    <ol class="text-list">
+      <li>Meningkatkan akhlak mulia sebagai manifestasi iman dan taqwa peserta didik</li>
+      <li>Meningkatkan kompetensi kejuruan dan akademik peserta didik</li>
+      <li>Meningkatkan keterserapan tamatan di dunia kerja</li>
+      <li>Meningkatkan kemampuan peserta didik dalam berfikir logis</li>
+      <li>Meningkatkan kemampuan peserta didik dalam pengelolaan informasi dan berkomunikasi</li>
+      <li>Menumbuhkembangkan jiwa kewirausahaan peserta didik</li>
+      <li>Menumbuhkan budaya profesional dan unggul dikalangan peserta didik.</li>
+    </ol>
 </div>
 
-
-<div class="container-fluid section text-section" style="">
-    <h1 class="section-title section-title-orange pt-3 pb-4">KURIKULUM</h1>
-    <h5 class="pt-3 pb-4 text-center">STRUKTUR KURIKULUM MULTIMEDIA SMK KAPIN JAKARTA (Kurikulum 2013)</h5>
-    <img class="img-fluid d-block mx-auto" src="/assets/img/sma/kurikulum-sma.png" alt="">
-</div>
-
-<div class="container-fluid section text-section" style="">
-    <h5 class=" mb-4" style="color:#ff781f">PROSPEK KERJA</h5>
+<div class="container-fluid section info-section bg-pattern">
     <div class="row">
-        <div class="col-md-6">
-        <p>1.	Lorem ipsum</p>
-        <p>2.	HODOR IPSUM</p>
-        <p>3.	TRUMP IPSUM</p>
-        <p>4.	HIPSTER IPSUM</p>
-        <p>5.	ZOMBIE IPSUM</p>
-        <p>6.	BACON IPSUM</p>
-        </div>
-        <div class="col-md-6">
-        <p>7.	Lorem ipsum</p>
-        <p>8.	HODOR IPSUM</p>
-        <p>9.	TRUMP IPSUM</p>
-        <p>10.	HIPSTER IPSUM</p>
-        <p>11.	ZOMBIE IPSUM</p>
-        <p>12.	BACON IPSUM</p>
-        </div>
+      <div class="col-12 col-md-4">
+        <img class="w-100 mb-3" src="/assets/img/etc/sejarah.jpg" alt="">
+      </div>
+      <div class="col-12 col-md-8">
+        <p class="mb-0 info-subtitle">SEJARAH SINGKAT</p>
+        <h3 class="mt-0 info-title">JURUSAN MULTIMEDIA</h3>
+        <p class="mt-3 info-content">Komepetensi keahlian Multimedia didirikan pada tahun 2008, dan dipelopori oleh Ibu Yati Kurniati, S.pd . yang sekarang nya menjadi Kepala SMK KAPIN, adapun beberapa alasan didirkannya jurusan Multimedia ini dikarenakan pada saat itu trend yang terjadi dimasyarakat mengarah ke kebutuhan multimedia. Dan banyak peluang pekerjaan yang bias dihasilkan dari multimedia</p>
+        <p class="mt-3 mb-1 info-content">Berikut beberapa nama yang masih menjabat dan pernah menjabat sebagai guru Multimedia :
+          <ol class="info-content">
+            <li>Yati Kurniati, M.Pd</li>
+            <li>Adi Wibisono, S.ST</li>
+            <li>Maristya Catur DP, S.Pd</li>
+            <li>Andri Aprilia, S.Pd</li>
+          </ol>
+        </p>
+      </div>
     </div>
+</div>
+
+<div class="container-fluid section text-section" style="">
+    <h1 class="section-title section-title-orange pt-3 pb-4">ORGANISASI</h1>
+    <h5 class="pt-3 pb-4 text-center">STRUKTUR LABORATORIUM KOMPETENSI KEAHLIAN MULTIMEDIA</h5>
+    <img class="img-fluid d-block mx-auto" src="/assets/img/smk/multimedia/struktur.jpg" alt="">
 </div>
 
 <div class="container-fluid section text-section" style="">
@@ -121,34 +140,19 @@
 <div class="container-fluid section text-section">
   <h1 class="section-title section-title-orange pt-3 pb-5">FOTO</h1>
   <div class="row justify-content-center">
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/multimedia/foto-1.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/multimedia/foto-2.jpeg" alt="Card image cap">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 mb-5">
       <div class="card" style="">
         <img class="card-img-top" src="/assets/img/smk/multimedia/foto-3.jpeg" alt="Card image cap">
-      </div>
-    </div>
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
-      </div>
-    </div>
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
-      </div>
-    </div>
-    <div class="col-md-4 col-6 mb-5">
-      <div class="card" style="">
-        <img class="card-img-top" src="https://mtsn4malang.sch.id/wp-content/uploads/2019/08/placeholder-1.png" alt="Card image cap">
       </div>
     </div>
   </div>

@@ -70,6 +70,43 @@
   </div>
 </div>
 
+<div class="container-fluid section text-section" style="">
+    <h1 class="section-title section-title-orange pt-3">SAMBUTAN SMK KAPIN</h1>
+    <blockquote class="blockquote sambutan">
+        <p class="mb-0"><strong>Assalammualaykum warahmatullah wabarakatuh,</strong></p>
+        <p class="mb-0"><strong>Salam sejahtera untuk kita semua</strong></p>
+        <p class="mb-5"><strong>Selamat datang di Web YPT KAPIN</strong></p>
+        <p class="mb-3">Kami unit SMK KAPIN menyambut baik dengan adanya web YPT KAPIN. Semoga informasi yang dibutuhkan masyarakat yang ingin mengetahui lebih dalam tentang SMK KAPIN dapat terpenuhi melalui web YPT KAPIN.</p>
+        <p class="mb-3">SMK KAPIN, terdiri dari 5 Kompetensi Keahlian, yaitu</p>
+        <ol class="mb-3">
+          <li>Teknik Kendaraan Ringan Otomotif</li>
+          <li>Teknik Instalasi Tenaga Listrik</li>
+          <li>Teknik Pemesinan</li>
+          <li>Teknik Komputer dan Jaringan</li>
+          <li>Multimedia</li>
+        </ol>
+        <p class="mb-3">Memiliki akreditasi A dan tenaga pendidik lulusan S1 dan S2 yang kompeten dibidangnya. SMK KAPIN bekerja sama dengan dunia industri dalam kegiatan praktek kerja lapangan, yaitu</p>
+        <ol class="mb-3" type="a">
+          <li>PT. Honda Megatama</li>
+          <li>PT. Piranti</li>
+          <li>PT. Durian CCTV</li>
+          <li>Louie Digital Printing</li>
+          <li>Rembo Printing</li>
+          <li>Maloho Digital Printing</li>
+          <li>RS. Tebet</li>
+          <li>United Traktor</li>
+          <li>PT. Yokatta</li>
+          <li>Dan lain sebagainya</li>
+        </ol>
+        <p class="mb-3">Selain itu banyak prestasi yang sudah diraih oleh siswa/i SMK KAPIN baik ditingkat wilayah maupun nasional. Prestasi yang diraih dalam bidang seni, budaya dan olahraga. Pendidikan karakter menjadi hal yang utama. Lulusan yang berilmu dan bertaqwa kepada Tuhan YME menjadi tujuannya.</p>
+        <p class="mb-0"><strong>Bersama SMK KAPIN...</strong></p>
+        <p class="mb-0"><strong>Belajar</strong></p>
+        <p class="mb-0"><strong>Berkarya</strong></p>
+        <p class="mb-3"><strong>Juara</strong></p>
+        <footer class="blockquote-footer sambutan-footer">SMK Kapin</footer>
+    </blockquote>
+</div>
+
 <div class="container-fluid section text-section" >
     <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
     <h5 class="mt-5" style="color:#ff781f">VISI</h5>
@@ -105,7 +142,7 @@
       <div class="col-md-6 pb-4">
       <a href="/smk/titl">
         <div class="card bg-dark text-white kompetensi-card zoom">
-          <img class="card-img kompetensi-img" src="https://www.smkmutumalang.sch.id/wp-content/uploads/2019/09/smk-mutu-gondanglegi-jurusan-kompetensi-keahlian-instalasi-tenaga-listrik-1024x683.jpg" alt="Card image">
+          <img class="card-img kompetensi-img" src="/assets/img/smk/komp-titl.jpeg" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">TEKNIK INSTALASI TENAGA LISTRIK</h5>
           </div>
@@ -117,7 +154,7 @@
       <div class="col-md-6 pb-4">
       <a href="/smk/tkr">
         <div class="card bg-dark text-white kompetensi-card zoom">
-          <img class="card-img kompetensi-img" src="https://1.bp.blogspot.com/-lTkEf3XkRqg/WgkC_PvvMQI/AAAAAAAACkA/MEM5wv1oI_gCoT4l3t1nErjHRq8Vro19wCEwYBhgL/s640/mesinbalap.JPG" alt="Card image">
+          <img class="card-img kompetensi-img" src="/assets/img/smk/komp-tkr.jpeg" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">TEKNIK KENDARAAN RINGAN</h5>
           </div>
@@ -127,7 +164,7 @@
       <div class="col-md-6 pb-4">
       <a href="/smk/multimedia">
         <div class="card bg-dark text-white kompetensi-card zoom">
-          <img class="card-img kompetensi-img" src="https://smkn3merauke.sch.id/wp-content/uploads/2020/04/11.png" alt="Card image">
+          <img class="card-img kompetensi-img" src="/assets/img/smk/komp-mm.jpeg" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">MULTIMEDIA</h5>
           </div>
@@ -137,6 +174,10 @@
     </div>
 </div>
 
+<div class="container-fluid section text-section">
+  <h1 class="section-title section-title-orange pt-3 pb-4">PROFIL PENDIDIK</h1>
+  @include('pendidik_smk')
+</div>
 
 <div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3">SARANA & PRASARANA</h1>

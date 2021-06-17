@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
         <title>@yield('title')</title>
-        <link rel="stylesheet" href="/css/style.css?v=3.3">
+        <link rel="stylesheet" href="/css/style.css?v=4">
         @yield('csslink')
     </head>
     <body>
@@ -115,8 +115,8 @@
                         <li class="nav-item {{(request()->is('blog*')) ? 'active' : '' }}">
                             <a class="nav-link" href="/blog">Blog</a>
                         </li>
-                        <li class="nav-item {{(request()->is('contact')) ? 'active' : '' }}">
-                            <a class="nav-link" href="/contact">Contact</a>
+                        <li class="nav-item {{(request()->is('kontak')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/kontak">Kontak</a>
                         </li>
                     </ul>
                 </div>
@@ -124,7 +124,7 @@
         </div>
     </div>
     @yield('content')
-    <footer class="container-fluid section mt-5" style="background:#ff781f; margin-bottom:0;padding-top:30px;padding-bottom:30px">
+    <footer class="container-fluid section mt-5 footer-body">
         <div class="footer-content">
             <p class="logo-text"><span class="header-white">KAPIN</span><br>YAYASAN PENDIDIKAN TEKNOLOGI<br>KADER PEMBANGUNAN INDONESIA</p>
             <div class="social-media">
