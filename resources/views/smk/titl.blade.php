@@ -7,7 +7,7 @@
   <div class="row justify-content-center" style="padding-top:2vh">
     <div class="col-md-12 p-0">
         <div class="card text-white">
-        <img class="card-img" src="/assets/img/smp/head-1.jpeg" alt="Card image" style="padding:0">
+        <img class="card-img" src="/assets/img/smk/titl/head.jpg" alt="Card image" style="padding:0">
         <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
             <h5 class="card-title kompetensi-head-text">TEKNIK INSTALASI<br>TENAGA LISTRIK</h5>
         </div>
@@ -35,6 +35,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/smk/multimedia">MULTIMEDIA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">/</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/smk/teknik-mesin">TEKNIK MESIN</a>
         </li>
       </ul>
     </div>

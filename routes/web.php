@@ -23,6 +23,7 @@ Route::get('/smk', 'PageController@smk');
 Route::get('/smk/tkj', 'PageController@tkj');
 Route::get('/smk/titl', 'PageController@titl');
 Route::get('/smk/tkr', 'PageController@tkr');
+Route::get('/smk/teknik-mesin', 'PageController@tm');
 Route::get('/smk/multimedia', 'PageController@multimedia');
 Route::get('/blog', 'PageController@blog');
 Route::get('/blog/{url}', 'PostController@show');

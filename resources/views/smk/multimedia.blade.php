@@ -7,7 +7,7 @@
   <div class="row justify-content-center" style="padding-top:2vh">
     <div class="col-md-12 p-0">
         <div class="card text-white">
-        <img class="card-img" src="/assets/img/smp/head-1.jpeg" alt="Card image" style="padding:0">
+        <img class="card-img" src="/assets/img/smk/multimedia/head.jpg" alt="Card image" style="padding:0">
         <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
             <h5 class="card-title kompetensi-head-text">MULTIMEDIA</h5>
         </div>
@@ -35,6 +35,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/smk/multimedia">MULTIMEDIA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">/</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/smk/teknik-mesin">TEKNIK MESIN</a>
         </li>
       </ul>
     </div>
@@ -137,7 +143,7 @@
     </div>
 </div>
 
-<div class="container-fluid section text-section">
+<div class="container-fluid section text-section foto-section">
   <h1 class="section-title section-title-orange pt-3 pb-5">FOTO</h1>
   <div class="row justify-content-center">
     <div class="col-md-4 mb-5">

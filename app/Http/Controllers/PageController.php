@@ -51,6 +51,10 @@ class PageController extends Controller
         return view('smk.tkr');
     }
 
+    public function tm(){
+        return view('smk.tm');
+    }
+
     public function multimedia(){
         return view('smk.multimedia');
     }

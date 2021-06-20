@@ -36,6 +36,12 @@
         <li class="nav-item">
           <a class="nav-link" href="/smk/multimedia">MULTIMEDIA</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link">/</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/smk/teknik-mesin">TEKNIK MESIN</a>
+        </li>
       </ul>
     </div>
   </div>

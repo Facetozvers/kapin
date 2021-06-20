@@ -134,7 +134,7 @@
     </div>
 </div>
 
-<div class="container-fluid section text-section">
+<div class="container-fluid section text-section foto-section">
   <h1 class="section-title section-title-orange pt-3 pb-5">FOTO</h1>
   <div class="row justify-content-center">
     <div class="col-md-4 mb-5">

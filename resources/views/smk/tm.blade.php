@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title', 'Teknik Kendaraan Ringan | SMK KAPIN')
+@section('title', 'Multimedia | SMK KAPIN')
 @section('content')
 
 
@@ -7,9 +7,9 @@
   <div class="row justify-content-center" style="padding-top:2vh">
     <div class="col-md-12 p-0">
         <div class="card text-white">
-        <img class="card-img" src="/assets/img/smk/tkr/head.jpeg" alt="Card image" style="padding:0">
+        <img class="card-img" src="/assets/img/smp/head-1.jpeg" alt="Card image" style="padding:0">
         <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
-            <h5 class="card-title kompetensi-head-text">TEKNIK KENDARAAN<br>RINGAN</h5>
+            <h5 class="card-title kompetensi-head-text">TEKNIK MESIN</h5>
         </div>
         </div>
     </div>
@@ -28,7 +28,7 @@
           <a class="nav-link">/</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/smk/tkr">TKR</a>
+          <a class="nav-link" href="/smk/tkr">TKR</a>
         </li>
         <li class="nav-item">
           <a class="nav-link">/</a>
@@ -40,7 +40,7 @@
           <a class="nav-link">/</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/smk/teknik-mesin">TEKNIK MESIN</a>
+          <a class="nav-link active" href="/smk/teknik-mesin">TEKNIK MESIN</a>
         </li>
       </ul>
     </div>
@@ -48,26 +48,19 @@
 </div>
 
 <div class="container-fluid section text-section">
-  <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
-  <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> VISI</h5>
-  <p class="mb-5">Menyiapkan lulusan yang mampu menjadi Tenaga Teknisi Otomotif  untuk dapat bekerja pada lembaga tertentu ataupun pada DU/DI sesuai dengan tingkat keahliannya serta memiliki imtaq dan mengikuti kemajuan iptek</p>
-  
-  <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> MISI</h5>
-  <ol class="text-list">
-    <li>Menciptakan Tenaga Teknisi Otomotif yang berakhlak dan berkepribadian mulia</li>
-    <li>Menciptakan Tenaga Teknisi Otomotif yang inovatif, kreatif dan bertanggung jawab</li>
-    <li>Menciptakan Tenaga Teknisi Otomotif yang senantiasa dapat mencermati mengikuti perkembangan IT</li>
-  </ol>
-
-  <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> TUJUAN</h5>
-  <ol class="text-list">
-    <li>Meningkatkan keimanan dan ketaqwaan peserta didik</li>
-    <li>Mendidik peserta didik agar menjadi warga negara Indonesia yang bertanggung jawab.</li>
-    <li>Mendidik peserta didik agar dapat menerapkan hidup sehat, memiliki wawasan pengetahuan dan seni.</li>
-    <li>Mendidik peserta didik dengan keahlian teknis bidang Otomotif baik analog  maupun digital</li>
-    <li>Mendidik peserta didik dengan pengetahuan peralatan Otomotif, keahlian mendiagnosis dan merakit serta memperbaiki peralatan Otomotif secara mandiri</li>
-  </ol>
+    <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> VISI</h5>
+    <p class="mb-5">Menjadi Sekolah Unggulan Yang Menghasilkan Tamatan Yang Berkualitas Serta Melahirkan Teknisi Teknik Pemesinan Yang Kompeten Dan Mandiri Melalui Pengembangan Iptek dan Imtaq.</p>
+    
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> MISI</h5>
+    <ol class="text-list">
+      <li>Melaksanakan Layanan prima Terhadap Siswa Dalam Semua Aspek Sarana Dan Prasarana Untuk Menghasilkan Tenaga kerja Yang kompeten dan Mandiri</li>
+      <li>Meningkatkan Kualitas Tamatan Yang Sesuai Dengan Standar Kompeten Nasional (SKN) Dalam Menghadapi Era Global</li>
+      <li>Meningkatkan Mutu Sumber Daya Manusia Melalui Penerapan Iptek dan Imtaq</li>
+      <li>Melaksanakan KBM dan Kegiatan Extrakurikuler Untuk Mengembangkan Minat dan Bakat Siswa</li>
+    </ol>
 </div>
+
 
 <div class="container-fluid section text-section" style="">
     <h1 class="section-title section-title-orange pt-3">SARANA & PRASARANA</h1>
@@ -117,32 +110,32 @@
   <div class="row justify-content-center">
     <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="/assets/img/smk/tkr/foto-1.jpeg" alt="Card image cap" style="height:250px">
+        <img class="card-img-top" src="/assets/img/smk/tm/foto-1.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="/assets/img/smk/tkr/foto-2.jpeg" alt="Card image cap" style="height:250px">
+        <img class="card-img-top" src="/assets/img/smk/tm/foto-2.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="/assets/img/smk/tkr/foto-3.jpeg" alt="Card image cap" style="height:250px">
+        <img class="card-img-top" src="/assets/img/smk/tm/foto-3.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="/assets/img/smk/tkr/foto-4.jpeg" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tm/foto-4.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="/assets/img/smk/tkr/foto-5.jpeg" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tm/foto-5.jpeg" alt="Card image cap">
       </div>
     </div>
     <div class="col-md-4 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="/assets/img/smk/tkr/foto-6.jpeg" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/tm/foto-6.jpeg" alt="Card image cap">
       </div>
     </div>
   </div>

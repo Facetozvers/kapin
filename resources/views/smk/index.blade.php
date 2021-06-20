@@ -65,6 +65,12 @@
         <li class="nav-item">
           <a class="nav-link" href="/smk/multimedia">MULTIMEDIA</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link">/</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/smk/teknik-mesin">TEKNIK MESIN</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -107,24 +113,24 @@
     </blockquote>
 </div>
 
-<div class="container-fluid section text-section" >
+<div class="container-fluid section text-section">
     <h1 class="section-title section-title-orange pt-3">VISI & MISI</h1>
-    <h5 class="mt-5" style="color:#ff781f">VISI</h5>
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> VISI</h5>
     <p class="mb-5">Menghasilkan lulusan yang berakhlak mulia, unggul dalam kompetensi kejuruan dan penguasaan teknologi untuk menghadapi persaingan global dan masyarakat MEA (Masyarakat Ekonomi Asean) serta melanjutkan ke perguruan tinggi</p>
     
-    <h5 class="mt-5" style="color:#ff781f">MISI</h5>
-    <p class="mb-5">
-    Untuk mewujudkan visi tersebut diatas, SMK KAPIN JAKARTA mempunyai misi sebagai berikut:
-    <br>1.	Melaksanakan pembelajaran yang berorientasi dan merujuk pada kurikulum nasional dan kebutuhan pasar kerja agar ada link and match
-    <br>2.	Melaksanakan pembelajaran dan kegiatan yang berorientasi kepada pembentukan karakter akhlak mulia, budi pekerti serta etos kerja
-    <br>3.	Melaksanakan pembelajaran yang berorientasi kepada kemampuan berfikir, objektif, logis, kritis dan sitematis
-    <br>4.	Melaksanakan pembelajaran kewirausahaan dengan membentuk jiwa enterpreneurship yang profesional
-
-    </p>
+    <h5 class="mt-5" style="color:#ff781f"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> MISI</h5>
+    <p class="mb-2">Untuk mewujudkan visi tersebut diatas, SMK KAPIN JAKARTA mempunyai misi sebagai berikut:</p>
+    <ol class="text-list">
+      <li>Melaksanakan pembelajaran yang berorientasi dan merujuk pada kurikulum nasional dan kebutuhan pasar kerja agar ada link and match</li>
+      <li>Melaksanakan pembelajaran dan kegiatan yang berorientasi kepada pembentukan karakter akhlak mulia, budi pekerti serta etos kerja</li>
+      <li>Melaksanakan pembelajaran yang berorientasi kepada kemampuan berfikir, objektif, logis, kritis dan sitematis</li>
+      <li>Melaksanakan pembelajaran kewirausahaan dengan membentuk jiwa enterpreneurship yang profesional</li>
+    </ol>
     <p class="mb-5">
     <strong># PERCAYA DIRI MERAIH PRESTASI #</strong>
     </p>
 </div>
+
 
 <div class="container-fluid section text-section" >
     <h1 class="section-title section-title-orange pt-3">KOMPETENSI</h1>
@@ -132,7 +138,7 @@
       <div class="col-md-6 pb-4">
       <a href="/smk/tkj">
         <div class="card bg-dark text-white kompetensi-card zoom">
-          <img class="card-img kompetensi-img" src="https://smkn1wayserdang.sch.id/media_library/posts/large/3ac32111ab690e6caa19b590f6dbf25b.jpg" alt="Card image">
+          <img class="card-img kompetensi-img" src="/assets/img/smk/komp-tkj.jpg" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">TEKNIK KOMPUTER DAN JARINGAN</h5>
           </div>
@@ -167,6 +173,16 @@
           <img class="card-img kompetensi-img" src="/assets/img/smk/komp-mm.jpeg" alt="Card image">
           <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
               <h5 class="card-title kompetensi-text">MULTIMEDIA</h5>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="col-md-6 pb-4">
+      <a href="/smk/teknik-mesin">
+        <div class="card bg-dark text-white kompetensi-card zoom">
+          <img class="card-img kompetensi-img" src="/assets/img/smk/komp-tm.jpeg" alt="Card image">
+          <div class="card-img-overlay" style="background: rgba(0,0,0,0.5)">
+              <h5 class="card-title kompetensi-text">TEKNIK MESIN</h5>
           </div>
         </div>
       </a>
@@ -225,32 +241,32 @@
 <div class="container-fluid section text-section foto-section">
   <h1 class="section-title section-title-orange pt-3 pb-5">FOTO</h1>
   <div class="row justify-content-center">
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 col-12 mb-5">
       <div class="card" style="">
-        <img class="card-img-top" src="/assets/img/smk/foto-1.jpeg" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/smk/foto-1.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 col-12 mb-5">
       <div class="card">
         <img class="card-img-top" src="/assets/img/smk/foto-2.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 col-12 mb-5">
       <div class="card">
         <img class="card-img-top" src="/assets/img/smk/foto-3.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 col-12 mb-5">
       <div class="card">
         <img class="card-img-top" src="/assets/img/smk/foto-4.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 col-12 mb-5">
       <div class="card">
         <img class="card-img-top" src="/assets/img/smk/foto-5.jpeg" alt="Card image cap" style="height:200px">
       </div>
     </div>
-    <div class="col-md-4 col-6 mb-5">
+    <div class="col-md-4 col-12 mb-5">
       <div class="card">
         <img class="card-img-top" src="/assets/img/smk/foto-6.jpeg" alt="Card image cap" style="height:200px">
       </div>
