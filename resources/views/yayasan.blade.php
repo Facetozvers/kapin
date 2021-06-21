@@ -53,7 +53,7 @@
     <div class="row justify-content-center">
       <div class="col-md-3">
         <div class="card" style="margin-bottom:4vh">
-            <img class="tingkat-img card-img" src="/assets/img/yayasan/ketua.jpg" alt="Bologna">
+            <img class="tingkat-img card-img" src="/assets/img/yayasan/ketua.jpg?v=2" alt="Bologna">
             <div class="card-img-overlay text-white d-flex flex-column justify-content-end" style="">
                 <div class="d-block" style="position : absolute;bottom   : 0;left:0;width:100%;background-color: rgba(0, 0, 0, 0.4)">
                     <h5 class="pengurus-name card-title text-center mt-3" style="margin:0">Maryana Muchtar, S.H</h5>
